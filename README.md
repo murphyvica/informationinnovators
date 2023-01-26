@@ -1,1 +1,1 @@
-# informationinnovators
+# Information Innovators
