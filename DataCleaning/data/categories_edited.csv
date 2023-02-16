@@ -1,0 +1,1397 @@
+﻿domainId,catId,name,parent,highestRank,productCount,contextFreeName,lowestRank
+1,133140011,Kindle Store,0,6985073,7831463,Kindle Store,1
+1,7529231011,Kindle eBooks Grouping,133140011,-1,0,Kindle eBooks Grouping,2147483647
+1,7529576011,TestNode,7529231011,6963731,1881,TestNode,1193
+1,133141011,Categories,133140011,1219393,46229,Kindle Store,2
+1,8584457011,Kindle Short Reads,133141011,5758727,124,Kindle Short Reads,5388
+1,8584462011,90 minutes (44-64 pages),8584457011,6720914,926,90-Minute Short Reads,883
+1,8624210011,Education & Reference,8584462011,6980468,47790,90-Minute Education & Reference Short Reads,1448
+1,8624213011,History,8584462011,6975743,27599,90-Minute History Short Reads,242
+1,8624212011,"Health, Fitness & Dieting",8584462011,6957539,53937,"90-Minute Health, Fitness & Dieting Short Reads",288
+1,8624202011,Arts & Photography,8584462011,6974894,26741,90-Minute Arts & Photography Short Reads,523
+1,8624215011,Literature & Fiction,8584462011,6980311,192803,90-Minute Literature & Fiction Short Reads,307
+1,8624209011,"Crafts, Hobbies & Home",8584462011,6955584,51582,"90-Minute Craft, Hobby & Home Short Reads",338
+1,8624220011,Romance,8584462011,6984200,41244,90-Minute Romance Short Reads,12
+1,8624214011,Humor & Entertainment,8584462011,6964863,14110,90-Minute Humor & Entertainment Short Reads,4209
+1,8624204011,Business & Money,8584462011,6983068,66885,90-Minute Business & Money Short Reads,429
+1,8624219011,Religion & Spirituality,8584462011,6980777,53177,90-Minute Religion & Spirituality Short Reads,436
+1,8624206011,Comics & Graphic Novels,8584462011,6968092,24257,90-Minute Comic & Graphic Novel Short Reads,2597
+1,8624223011,Self-Help,8584462011,6983068,50229,90-Minute Self-Help Short Reads,570
+1,8624222011,Science Fiction & Fantasy,8584462011,6980311,27028,90-Minute Science Fiction & Fantasy Short Reads,790
+1,8624225011,Teen & Young Adult,8584462011,6977949,48949,90-Minute Teen & Young Adult Short Reads,208
+1,8624218011,Politics & Social Sciences,8584462011,6961779,13068,90-Minute Politics & Social Sciences Short Reads,4212
+1,8624208011,"Cookbooks, Food & Wine",8584462011,6968287,40194,"90-Minute Cookbook, Food & Wine Short Reads",208
+1,8624221011,Science & Math,8584462011,6945350,13879,90-Minute Science & Math Short Reads,3449
+1,8624217011,Parenting & Relationships,8584462011,6947168,27301,90-Minute Parenting & Relationships Short Reads,2583
+1,8624211011,LGBTQ+,8584462011,6949495,9620,90-Minute LGBTQ+ Short Reads,436
+1,8624226011,Travel,8584462011,6964863,15620,90-Minute Travel Short Reads,1033
+1,8624224011,Sports & Outdoors,8584462011,6968334,13053,90-Minute Sports & Outdoors Short Reads,7876
+1,8624203011,Biographies & Memoirs,8584462011,6980522,20519,90-Minute Biography & Memoir Short Reads,278
+1,8624216011,"Mystery, Thriller & Suspense",8584462011,6973919,17676,"90-Minute Mystery, Thriller & Suspense Short Reads",489
+1,8624207011,Computers & Technology,8584462011,6951087,14364,90-Minute Computers & Technology Short Reads,3157
+1,8584463011,Two hours or more (65-100 pages),8584457011,6925798,1497,Two-Hour Short Reads,1908
+1,8624248011,Self-Help,8584463011,6973543,62755,Two-Hour Self-Help Short Reads,716
+1,8624234011,"Crafts, Hobbies & Home",8584463011,6951020,39691,"Two-Hour Craft, Hobby & Home Short Reads",1014
+1,8624233011,"Cookbooks, Food & Wine",8584463011,6980682,57826,"Two-Hour Cookbook, Food & Wine Short Reads",74
+1,8624227011,Arts & Photography,8584463011,6969934,31354,Two-Hour Arts & Photography Short Reads,3052
+1,8624231011,Comics & Graphic Novels,8584463011,6962951,17955,Two-Hour Comic & Graphic Novel Short Reads,2305
+1,8624244011,Religion & Spirituality,8584463011,6978575,82808,Two-Hour Religion & Spirituality Short Reads,116
+1,8624236011,LGBTQ+,8584463011,6956881,13475,Two-Hour LGBTQ+ Short Reads,67
+1,8624229011,Business & Money,8584463011,6975665,78073,Two-Hour Business & Money Short Reads,415
+1,8624242011,Parenting & Relationships,8584463011,6968490,31287,Two-Hour Parenting & Relationships Short Reads,1404
+1,8624235011,Education & Reference,8584463011,6981051,56200,Two-Hour Education & Reference Short Reads,312
+1,8624241011,"Mystery, Thriller & Suspense",8584463011,6975807,29682,"Two-Hour Mystery, Thriller & Suspense Short Reads",257
+1,8624239011,Humor & Entertainment,8584463011,6975819,16007,Two-Hour Humor & Entertainment Short Reads,2967
+1,8624250011,Teen & Young Adult,8584463011,6980682,62206,Two-Hour Teen & Young Adult Short Reads,579
+1,8624247011,Science Fiction & Fantasy,8584463011,6975305,43319,Two-Hour Science Fiction & Fantasy Short Reads,21
+1,8624238011,History,8584463011,6972621,40807,Two-Hour History Short Reads,188
+1,8624251011,Travel,8584463011,6963562,19624,Two-Hour Travel Short Reads,1537
+1,8624246011,Science & Math,8584463011,6967553,17004,Two-Hour Science & Math Short Reads,1654
+1,8624228011,Biographies & Memoirs,8584463011,6970707,32650,Two-Hour Biography & Memoir Short Reads,116
+1,8624243011,Politics & Social Sciences,8584463011,6957366,17139,Two-Hour Politics & Social Sciences Short Reads,1705
+1,8624249011,Sports & Outdoors,8584463011,6976122,13319,Two-Hour Sports & Outdoors Short Reads,6001
+1,8624240011,Literature & Fiction,8584463011,6975807,303912,Two-Hour Literature & Fiction Short Reads,85
+1,8624245011,Romance,8584463011,6982791,70800,Two-Hour Romance Short Reads,9
+1,8624232011,Computers & Technology,8584463011,6958740,17585,Two-Hour Computers & Technology Short Reads,1351
+1,8624237011,"Health, Fitness & Dieting",8584463011,6962582,52526,"Two-Hour Health, Fitness & Dieting Short Reads",579
+1,8584458011,15 minutes (1-11 pages),8584457011,6751326,152,15-Minute Short Reads,4408
+1,8624106011,Comics & Graphic Novels,8584458011,6955436,1997,15-Minute Comic & Graphic Novel Short Reads,3296
+1,8624110011,Education & Reference,8584458011,6970686,38490,15-Minute Education & Reference Short Reads,3181
+1,8624108011,"Cookbooks, Food & Wine",8584458011,6965778,7471,"15-Minute Cookbook, Food & Wine Short Reads",1511
+1,8624112011,"Health, Fitness & Dieting",8584458011,6967200,19451,"15-Minute Health, Fitness & Dieting Short Reads",1480
+1,8624117011,Parenting & Relationships,8584458011,6962437,13003,15-Minute Parenting & Relationships Short Reads,4333
+1,8624102011,Arts & Photography,8584458011,6982714,52961,15-Minute Arts & Photography Short Reads,11881
+1,8624114011,Humor & Entertainment,8584458011,6955265,5842,15-Minute Humor & Entertainment Short Reads,3752
+1,8624125011,Teen & Young Adult,8584458011,6973004,31257,15-Minute Teen & Young Adult Short Reads,1104
+1,8624123011,Self-Help,8584458011,6973004,16612,15-Minute Self-Help Short Reads,4516
+1,8624116011,"Mystery, Thriller & Suspense",8584458011,6951917,8522,"15-Minute Mystery, Thriller & Suspense Short Reads",4346
+1,8624124011,Sports & Outdoors,8584458011,6935100,3993,15-Minute Sports & Outdoors Short Reads,19854
+1,8624104011,Business & Money,8584458011,6981582,22945,15-Minute Business & Money Short Reads,2820
+1,8624119011,Religion & Spirituality,8584458011,6962437,12242,15-Minute Religion & Spirituality Short Reads,7033
+1,8624113011,History,8584458011,6894012,7269,15-Minute History Short Reads,2189
+1,8624103011,Biographies & Memoirs,8584458011,6972764,9103,15-Minute Biography & Memoir Short Reads,2189
+1,8624121011,Science & Math,8584458011,6925861,5885,15-Minute Science & Math Short Reads,11990
+1,8624111011,LGBTQ+,8584458011,6946763,2497,15-Minute LGBTQ+ Short Reads,3378
+1,8624118011,Politics & Social Sciences,8584458011,6919905,5797,15-Minute Politics & Social Sciences Short Reads,5203
+1,8624122011,Science Fiction & Fantasy,8584458011,6956175,13245,15-Minute Science Fiction & Fantasy Short Reads,2745
+1,8624126011,Travel,8584458011,6959047,3656,15-Minute Travel Short Reads,15957
+1,8624115011,Literature & Fiction,8584458011,6969396,96906,15-Minute Literature & Fiction Short Reads,1104
+1,8624107011,Computers & Technology,8584458011,6970843,4621,15-Minute Computers & Technology Short Reads,4345
+1,8624120011,Romance,8584458011,6954951,11793,15-Minute Romance Short Reads,3378
+1,8624109011,"Crafts, Hobbies & Home",8584458011,6965958,20281,"15-Minute Craft, Hobby & Home Short Reads",1511
+1,8584461011,One hour (33-43 pages),8584457011,6908269,595,One-Hour Short Reads,1924
+1,8624187011,"Health, Fitness & Dieting",8584461011,6976180,32767,"One-Hour Health, Fitness & Dieting Short Reads",342
+1,8624190011,Literature & Fiction,8584461011,6980402,118238,One-Hour Literature & Fiction Short Reads,457
+1,8624197011,Science Fiction & Fantasy,8584461011,6954150,17697,One-Hour Science Fiction & Fantasy Short Reads,288
+1,8624188011,History,8584461011,6930651,16330,One-Hour History Short Reads,1130
+1,8624178011,Biographies & Memoirs,8584461011,6924896,12699,One-Hour Biography & Memoir Short Reads,1130
+1,8624195011,Romance,8584461011,6947088,20453,One-Hour Romance Short Reads,36
+1,8624200011,Teen & Young Adult,8584461011,6967915,29831,One-Hour Teen & Young Adult Short Reads,421
+1,8624194011,Religion & Spirituality,8584461011,6972170,28201,One-Hour Religion & Spirituality Short Reads,1638
+1,8624179011,Business & Money,8584461011,6969898,44140,One-Hour Business & Money Short Reads,772
+1,8624181011,Comics & Graphic Novels,8584461011,6967915,14503,One-Hour Comic & Graphic Novel Short Reads,678
+1,8624192011,Parenting & Relationships,8584461011,6982958,19871,One-Hour Parenting & Relationships Short Reads,1644
+1,8624184011,"Crafts, Hobbies & Home",8584461011,6953291,14585,"One-Hour Craft, Hobby & Home Short Reads",836
+1,8624186011,LGBTQ+,8584461011,6980402,5262,One-Hour LGBTQ+ Short Reads,1107
+1,8624191011,"Mystery, Thriller & Suspense",8584461011,6930447,11504,"One-Hour Mystery, Thriller & Suspense Short Reads",36
+1,8624198011,Self-Help,8584461011,6966120,33663,One-Hour Self-Help Short Reads,351
+1,8624183011,"Cookbooks, Food & Wine",8584461011,6982338,15492,"One-Hour Cookbook, Food & Wine Short Reads",361
+1,8624182011,Computers & Technology,8584461011,6973283,8425,One-Hour Computers & Technology Short Reads,2403
+1,8624201011,Travel,8584461011,6926272,7551,One-Hour Travel Short Reads,6712
+1,8624185011,Education & Reference,8584461011,6965611,33576,One-Hour Education & Reference Short Reads,238
+1,8624177011,Arts & Photography,8584461011,6974634,14316,One-Hour Arts & Photography Short Reads,4077
+1,8624196011,Science & Math,8584461011,6952134,9844,One-Hour Science & Math Short Reads,4450
+1,8624189011,Humor & Entertainment,8584461011,6963469,6678,One-Hour Humor & Entertainment Short Reads,1175
+1,8624193011,Politics & Social Sciences,8584461011,6947776,9554,One-Hour Politics & Social Sciences Short Reads,3666
+1,8624199011,Sports & Outdoors,8584461011,6904868,6643,One-Hour Sports & Outdoors Short Reads,7192
+1,8584459011,30 minutes (12-21 pages),8584457011,6272795,471,30-Minute Short Reads,3226
+1,8624137011,"Health, Fitness & Dieting",8584459011,6963164,38026,"30-Minute Health, Fitness & Dieting Short Reads",212
+1,8624134011,"Crafts, Hobbies & Home",8584459011,6961224,26498,"30-Minute Craft, Hobby & Home Short Reads",825
+1,8624144011,Religion & Spirituality,8584459011,6962091,18957,30-Minute Religion & Spirituality Short Reads,3125
+1,8624150011,Teen & Young Adult,8584459011,6972127,32625,30-Minute Teen & Young Adult Short Reads,1115
+1,8624140011,Literature & Fiction,8584459011,6984180,117983,30-Minute Literature & Fiction Short Reads,548
+1,8624131011,Comics & Graphic Novels,8584459011,6927059,11423,30-Minute Comic & Graphic Novel Short Reads,3861
+1,8624127011,Arts & Photography,8584459011,6976725,18746,30-Minute Arts & Photography Short Reads,1857
+1,8624135011,Education & Reference,8584459011,6969489,37202,30-Minute Education & Reference Short Reads,2149
+1,8624146011,Science & Math,8584459011,6913146,10688,30-Minute Science & Math Short Reads,4746
+1,8624145011,Romance,8584459011,6984155,13424,30-Minute Romance Short Reads,1390
+1,8624147011,Science Fiction & Fantasy,8584459011,6967117,18537,30-Minute Science Fiction & Fantasy Short Reads,1756
+1,8624129011,Business & Money,8584459011,6980596,37639,30-Minute Business & Money Short Reads,4514
+1,8624132011,Computers & Technology,8584459011,6933936,7322,30-Minute Computers & Technology Short Reads,4337
+1,8624149011,Sports & Outdoors,8584459011,6954680,6960,30-Minute Sports & Outdoors Short Reads,15239
+1,8624141011,"Mystery, Thriller & Suspense",8584459011,6967117,12072,"30-Minute Mystery, Thriller & Suspense Short Reads",1007
+1,8624128011,Biographies & Memoirs,8584459011,6966459,14063,30-Minute Biography & Memoir Short Reads,5153
+1,8624142011,Parenting & Relationships,8584459011,6978337,20817,30-Minute Parenting & Relationships Short Reads,3082
+1,8624138011,History,8584459011,6972954,11153,30-Minute History Short Reads,2027
+1,8624133011,"Cookbooks, Food & Wine",8584459011,6952393,10377,"30-Minute Cookbook, Food & Wine Short Reads",1540
+1,8624136011,LGBTQ+,8584459011,6957020,4158,30-Minute LGBTQ+ Short Reads,2963
+1,8624139011,Humor & Entertainment,8584459011,6984854,6449,30-Minute Humor & Entertainment Short Reads,9434
+1,8624151011,Travel,8584459011,6918769,6076,30-Minute Travel Short Reads,7845
+1,8624143011,Politics & Social Sciences,8584459011,6948726,8223,30-Minute Politics & Social Sciences Short Reads,2901
+1,8624148011,Self-Help,8584459011,6984854,27186,30-Minute Self-Help Short Reads,212
+1,8584460011,45 minutes (22-32 pages),8584457011,6888493,705,45-Minute Short Reads,5847
+1,8624159011,"Crafts, Hobbies & Home",8584460011,6943020,16872,"45-Minute Craft, Hobby & Home Short Reads",534
+1,8624154011,Business & Money,8584460011,6978679,51472,45-Minute Business & Money Short Reads,187
+1,8624157011,Computers & Technology,8584460011,6947068,9325,45-Minute Computers & Technology Short Reads,1872
+1,8624164011,Humor & Entertainment,8584460011,6931551,8408,45-Minute Humor & Entertainment Short Reads,134
+1,8624158011,"Cookbooks, Food & Wine",8584460011,6958934,14539,"45-Minute Cookbook, Food & Wine Short Reads",1134
+1,8624173011,Self-Help,8584460011,6977653,38115,45-Minute Self-Help Short Reads,130
+1,8624156011,Comics & Graphic Novels,8584460011,6968492,66837,45-Minute Comic & Graphic Novel Short Reads,461
+1,8624165011,Literature & Fiction,8584460011,6979750,141969,45-Minute Literature & Fiction Short Reads,524
+1,8624166011,"Mystery, Thriller & Suspense",8584460011,6949306,13572,"45-Minute Mystery, Thriller & Suspense Short Reads",524
+1,8624168011,Politics & Social Sciences,8584460011,6939570,12336,45-Minute Politics & Social Sciences Short Reads,2903
+1,8624170011,Romance,8584460011,6981319,16780,45-Minute Romance Short Reads,681
+1,8624162011,"Health, Fitness & Dieting",8584460011,6982298,38866,"45-Minute Health, Fitness & Dieting Short Reads",416
+1,8624163011,History,8584460011,6971542,18817,45-Minute History Short Reads,2701
+1,8624167011,Parenting & Relationships,8584460011,6969100,25107,45-Minute Parenting & Relationships Short Reads,130
+1,8624171011,Science & Math,8584460011,6978955,13808,45-Minute Science & Math Short Reads,6964
+1,8624153011,Biographies & Memoirs,8584460011,6953408,16968,45-Minute Biography & Memoir Short Reads,130
+1,8624152011,Arts & Photography,8584460011,6978955,18316,45-Minute Arts & Photography Short Reads,4725
+1,8624176011,Travel,8584460011,6942565,8400,45-Minute Travel Short Reads,4485
+1,8624169011,Religion & Spirituality,8584460011,6971903,28845,45-Minute Religion & Spirituality Short Reads,691
+1,8624161011,LGBTQ+,8584460011,6981319,5841,45-Minute LGBTQ+ Short Reads,817
+1,8624160011,Education & Reference,8584460011,6976154,46720,45-Minute Education & Reference Short Reads,534
+1,8624175011,Teen & Young Adult,8584460011,6977653,36273,45-Minute Teen & Young Adult Short Reads,1271
+1,8624174011,Sports & Outdoors,8584460011,6934930,8092,45-Minute Sports & Outdoors Short Reads,1542
+1,8624172011,Science Fiction & Fantasy,8584460011,6954554,21838,45-Minute Science Fiction & Fantasy Short Reads,1801
+1,241646011,Kindle Newsstand,133141011,6866919,9783,Kindle Newsstand,17
+1,16015306011,"Arts, Music & Photography",241646011,6331962,293,"Arts, Music & Photography eMagazines",42
+1,16015378011,Art & Art History,16015306011,4310824,27,Art & Art History eMagazines,2239
+1,16015382011,Photography,16015306011,5308743,37,Photography eMagazines,23182
+1,16015381011,Music,16015306011,6331962,62,Music eMagazines,11028
+1,16015307011,Home & Garden,241646011,5488676,146,Home & Garden eMagazines,42
+1,16015402011,Design & Decoration,16015307011,5360998,40,Design & Decoration eMagazines,712
+1,16015408011,Interior Design,16015307011,5360998,61,Interior Design eMagazines,6224
+1,16015404011,Gardening & Horticulture,16015307011,4329917,28,Gardening & Horticulture eMagazines,707
+1,16015407011,How-to & Home Improvements,16015307011,4967441,23,How-to & Home Improvements eMagazines,1887
+1,16015302011,"Cooking, Food & Wine",241646011,6735593,171,"Cooking, Food & Wine eMagazines",42
+1,2460170011,"Sports, Recreation & Outdoors",241646011,6042989,257,"Sports, Recreation & Outdoors eMagazines",240
+1,16015369011,Sports & Leisure,2460170011,6042989,205,Sports & Leisure eMagazines,240
+1,16015461011,Cycling,16015369011,4262397,12,Cycling eMagazines,33313
+1,16015465011,Fishing,16015369011,4144855,23,Fishing eMagazines,7800
+1,16015464011,Extreme Sports,16015369011,6042989,28,Extreme Sports eMagazines,707
+1,16015471011,Hunting & Firearms,16015369011,2547589,23,Hunting & Firearms eMagazines,907
+1,16015472011,Individual Sports,16015369011,4675276,7,Individual Sports eMagazines,3579
+1,16015462011,Boating,16015369011,5030310,26,Boating eMagazines,22634
+1,16015480011,Water Sports,16015369011,5689714,10,Water Sports eMagazines,632901
+1,16015368011,Outdoors & Nature,2460170011,5970668,77,Outdoors & Nature eMagazines,907
+1,16015318011,"Spanish, International & Foreign Language",241646011,4799689,29,"Spanish, International & Foreign Language eMagazines",64909
+1,16015451011,International Publications,16015318011,6737352,104,International ePublications,21912
+1,16015552011,United Kingdom,16015451011,5446371,88,eMagazines of the United Kingdom,2462
+1,16015524011,France,16015451011,5027918,18,French eMagazines,47999
+1,16015510011,Australia,16015451011,5529371,52,Australian eMagazines,183457
+1,16015515011,Canada,16015451011,5931899,16,Canadian eMagazines,2462
+1,16015452011,Spanish Language,16015318011,5646784,70,Spanish Language eMagazines,320957
+1,16015313011,"Literary, Sci-Fi & Mystery",241646011,6739000,82,"Literary, Sci-Fi & Mystery eMagazines",43
+1,2460165011,Technology,241646011,5611016,76,Technology eMagazines,483
+1,16015357011,Computers & Internet,2460165011,5029090,34,Computers & Internet eMagazines,483
+1,16015356011,Audio & Video,2460165011,5583284,9,Audio & Video eMagazines,35391
+1,16015303011,Crafts & Hobbies,241646011,5970668,174,Craft & Hobby eMagazines,268
+1,16015345011,Decorating,16015303011,4967441,24,Decorating eMagazines,96778
+1,16015346011,Knitting,16015303011,4967435,18,Knitting eMagazines,62136
+1,16015350011,Needlecrafts,16015303011,4967435,16,Needlecrafts eMagazines,45128
+1,16015311011,Professional & Educational Journals,241646011,6735045,86,Professional & Educational Journals eMagazines,14001
+1,16015429011,Professional & Trade,16015311011,5701951,95,Professional & Trade eJournals,455
+1,16015487011,Arts,16015429011,5308743,72,Arts eJournals,23182
+1,16015492011,Humanities & Social Sciences,16015429011,4942023,61,Humanities & Social Sciences eJournals,1870
+1,16015494011,Medicine,16015429011,5122865,17,Medicine eJournals,50990
+1,16015314011,Newspapers,241646011,2064813,108,eNewspapers,17
+1,2460169011,"Science, History & Nature",241646011,5861704,128,"Science, History & Nature eMagazines",43
+1,16015308011,Automotive & Motorcycles,241646011,5029826,145,Automotive & Motorcycles eMagazines,1167
+1,16015412011,Automotive,16015308011,5557623,144,Automotive eMagazines,268
+1,16015413011,Motorcycles,16015308011,5266748,46,Motorcycles eMagazines,1425
+1,16015414011,Trucks,16015308011,5454820,23,Trucks eMagazines,277
+1,16015315011,Parenting & Families,241646011,4979431,48,Parenting & Families eMagazines,485
+1,16015310011,"Health, Fitness & Wellness",241646011,5468553,82,"Health, Fitness & Wellness eMagazines",2486
+1,16015423011,Men,16015310011,5605739,20,Men's Fitness eMagazines,1411
+1,16015426011,Women,16015310011,5274740,19,Women's Fitness eMagazines,5092
+1,16015422011,Health,16015310011,5987752,62,Health eMagazines,1897
+1,16015372011,Pregnancy & Childbirth,16015310011,4377461,11,Pregnancy & Childbirth eMagazines,938218
+1,16015312011,Children & Teen,241646011,5431859,50,Children's & Teens' eMagazines,69243
+1,16015309011,Fashion & Style,241646011,6737351,141,Fashion & Style eMagazines,2486
+1,16015370011,Bridal & Weddings,16015309011,5780807,26,Bridal & Weddings eMagazines,113107
+1,2460168011,"Travel, City & Regional",241646011,6739000,119,"Travel, City & Regional eMagazines",43
+1,2460166011,Lifestyle & Culture,241646011,5062791,191,Lifestyle & Culture eMagazines,42
+1,2460164011,Business & Investing,241646011,5495370,98,Business & Investing eMagazines,220
+1,16015334011,Economics,2460164011,1150237,15,Economics eMagazines,5863
+1,16015335011,Entrepreneurship,2460164011,3960048,21,Entrepreneurship eMagazines,1905
+1,16015331011,Business Life,2460164011,5097111,20,Business Life eMagazines,4988
+1,16015301011,Entertainment & Pop Culture,241646011,5646784,364,Entertainment & Pop Culture eMagazines,42
+1,16015320011,Celebrities & Gossip,16015301011,5027674,30,Celebrities & Gossip eMagazines,949
+1,16015324011,Pop Culture,16015301011,5030436,17,Pop Culture eMagazines,641
+1,16015327011,Television,16015301011,5529274,32,Television eMagazines,1521
+1,16015319011,Video Games,16015301011,3943920,12,Video Game eMagazines,30593
+1,16015326011,Tabloids,16015301011,4830752,12,Tabloid eMagazines,7061
+1,2460167011,News & Political Commentary,241646011,6737231,109,News & Political Commentary eMagazines,43
+1,16015316011,Pets & Animals,241646011,5715574,34,Pets & Animals eMagazines,75589
+1,16015317011,Religion & Spirituality,241646011,5985901,54,Religion & Spirituality eMagazines,531
+1,2486013011,Kindle Singles,133141011,3290898,26,Kindle Singles,78838
+1,17403634011,Biographies & Memoirs,2486013011,4902497,398,Kindle Singles: Biographies & Memoirs,2558
+1,17403648011,Literature & Fiction,2486013011,6019810,773,Kindle Singles: Literature & Fiction,19
+1,17403658011,Science Fiction & Fantasy,2486013011,4052594,131,Kindle Singles: Science Fiction & Fantasy,1415
+1,17403661011,Teen & Young Adult,2486013011,3043425,47,Kindle Singles: Teen & Young Adult,7823
+1,17403633011,Arts & Photography,2486013011,5706447,114,Kindle Singles: Arts & Photography,75842
+1,17403645011,Humor & Entertainment,2486013011,4101241,96,Kindle Singles: Humor & Entertainment,9107
+1,17403653011,Politics & Social Sciences,2486013011,4768413,183,Kindle Singles: Politics & Social Sciences,2558
+1,17403656011,Romance,2486013011,3662112,182,Kindle Singles: Romance,1662
+1,17506527011,Amazon Original Stories,2486013011,685725,204,Kindle Singles: Amazon Original Stories,19
+1,17403644011,History,2486013011,4091959,192,Kindle Singles: History,11580
+1,17403660011,Sports & Outdoors,2486013011,3506604,37,Kindle Singles:Sports & Outdoors,122285
+1,17403635011,Business & Money,2486013011,3621937,39,Kindle Singles: Business & Money,11550
+1,17403650011,"Mystery, Thriller & Suspense",2486013011,4047002,272,"Kindle Singles: Mystery, Thriller & Suspense",257
+1,17403652011,Parenting & Relationships,2486013011,3931078,78,Kindle Singles: Parenting & Relationships,4505
+1,17403655011,Religion & Spirituality,2486013011,4840995,40,Kindle Singles: Religion & Spirituality,9107
+1,17403643011,"Health, Fitness & Dieting",2486013011,2761363,32,"Kindle Singles: Health, Fitness & Dieting",11580
+1,17403647011,LGBTQ+,2486013011,3249314,20,Kindle Singles: LGBTQ+,14400
+1,17403657011,Science & Math,2486013011,6122667,70,Kindle Singles: Science & Math,41954
+1,17403662011,Travel,2486013011,4137442,50,Kindle Singles: Travel,164593
+1,17403651011,Nonfiction,2486013011,-1,0,Kindle Singles: Nonfiction,2147483647
+1,165389011,Kindle Newspapers,133141011,6593025,2891,Newspapers,6848
+1,2399044011,Europe,165389011,1538149,9,European Newspapers,24923
+1,251294011,United Kingdom,2399044011,1538149,10,United Kingdom Newspapers,5544
+1,251299011,Spain,2399044011,743455,6,Spanish Newspapers,37597
+1,251295011,Ireland,2399044011,40305,1,Irish Newspapers,40305
+1,251298011,Germany,2399044011,521121,5,German Newspapers,65979
+1,251297011,France,2399044011,65236,2,French Newspapers,24430
+1,2244379011,Portugal,2399044011,373344,1,Portuguese Newspapers,373344
+1,251296011,Italy,2399044011,58665,1,Italian Newspapers,58665
+1,2399045011,North America,165389011,1759953,27,North American Newspapers,15281
+1,251293011,U.S.,2399045011,2064813,74,U.S. Newspapers,17
+1,2237604011,Canada,2399045011,1062854,12,Canadian Newspapers,27267
+1,2232107011,Mexico,2399045011,838471,2,Mexican Newspapers,182371
+1,2399043011,Asia,165389011,460535,4,Asian Newspapers,190625
+1,634370011,China,2399043011,118801,2,Chinese Newspapers,55831
+1,2232106011,Japan,2399043011,71736,2,Japanese Newspapers,71736
+1,2237319011,India,2399043011,460535,4,Indian Newspapers,59313
+1,2239732011,United Arab Emirates,2399043011,-1,0,United Arab Emirates Newspapers,2147483647
+1,2239728011,Russia,2399043011,-1,1,Russian Newspapers,2147483647
+1,330600011,International,165389011,37694,2,International Newspapers,7701
+1,2399046011,South America,165389011,-1,2,South American Newspapers,2147483647
+1,2239731011,Chile,2399046011,-1,0,Chilean Newspapers,2147483647
+1,2363208011,Argentina,2399046011,697054,1,Argentinian Newspapers,697054
+1,2239730011,Peru,2399046011,-1,0,Peruvian Newspapers,2147483647
+1,154606011,Kindle eBooks,133141011,22668291,5815561,Kindle eBooks,1
+1,157119011,Medical eBooks,154606011,6968803,93948,Medical eBooks,227
+1,157152011,Basic Science,157119011,6920845,5619,Basic Medical Science,1287
+1,157199011,Neuroscience,157152011,6975336,11373,Neuroscience,1287
+1,157161011,Physiology,157152011,6967553,5342,Physiology,9614
+1,157159011,Nosology,157152011,6796177,1134,Nosology,22035
+1,157158011,Microbiology,157152011,6944714,3405,Microbiology Science,2297
+1,157156011,Genetics,157152011,6971543,3825,Genetics,6085
+1,157157011,Immunology,157152011,6975804,5322,Immunology,1238
+1,157160011,Pathophysiology,157152011,6917154,814,Pathophysiology,25135
+1,157153011,Anatomy,157152011,6974092,4469,Anatomy,2032
+1,157154011,Biochemistry,157152011,6975804,5883,Biochemistry,4029
+1,157155011,Embryology,157152011,6923719,875,Embryology,53558
+1,157142011,Alternative & Holistic,157119011,6977074,15237,Alternative & Holistic Medicine,896
+1,157148011,Hypnotherapy,157142011,6781859,600,Hypnosis Psychology & Counseling,11093
+1,157147011,Holistic Medicine,157142011,6909480,3772,Holistic Medicine,1346
+1,157145011,Diet Therapy,157142011,6954860,7416,Diet Therapy,1034
+1,157143011,Acupuncture,157142011,6945114,1672,Acupuncture,339
+1,157151011,Osteopathy,157142011,6940529,1149,Osteopathy,1636
+1,157149011,Mind-Body Medicine (Psychoneuroimmunology),157142011,5963467,576,Mind-Body Connection,339
+1,157144011,Chiropractic,157142011,6858574,930,Chiropractic,339
+1,157120011,Administration & Policy,157119011,6931324,7133,Medical Administration & Policy,2582
+1,157127011,Medical History & Records,157120011,6916499,1009,Medical History & Records,5033
+1,157129011,Public Health,157120011,6965056,16206,Public Health,389
+1,157123011,Health Policy,157120011,6964379,4515,Health Policy,3070
+1,157126011,Medicaid & Medicare,157120011,6914789,1067,Medicaid & Medicare,40019
+1,157125011,Hospital Administration,157120011,6902865,1961,Hospital Administration,2478
+1,157124011,Health Risk Assessment,157120011,6881278,1348,Health Risk Assessment,9445
+1,157122011,Health Care Delivery,157120011,6965034,10593,Health Care Delivery,3070
+1,157128011,Practice Management & Reimbursement,157120011,6939066,1210,Practice Management & Reimbursement,15254
+1,157208011,Nursing,157119011,6962290,8614,Nursing,3304
+1,157228011,Pharmacology,157208011,6940304,769,Nursing Pharmacology,44906
+1,157231011,Research & Theory,157208011,6873800,1165,Nursing Research & Theory,19247
+1,157232011,Test Preparation & Review,157208011,6841319,2102,Nursing Reviews & Study Guides,9770
+1,157215011,Gerontology,157208011,6903996,1010,Nursing Gerontology,7523
+1,157227011,Pediatric & Neonatal,157208011,6951992,894,Pediatric & Neonatal Nursing,41593
+1,157223011,Nurse & Patient,157208011,6802588,1150,Nurse & Patient,6565
+1,157220011,"Maternity, Perinatal & Women's Health",157208011,6940304,1817,Maternity & Women's Health Nursing,1481
+1,157219011,"Management, Leadership & Administration",157208011,6910279,2563,Nursing Management & Administration,1481
+1,157226011,Oncology & Cancer,157208011,6908304,1042,Oncology & Cancer Nursing,6396
+1,157229011,Psychiatric,157208011,6896290,1111,Psychiatric Nursing,3304
+1,157225011,Nutrition,157208011,6784320,693,Nursing Nutrition,10324
+1,157221011,Medical & Surgical,157208011,6939470,800,Medical & Surgical Nursing,1481
+1,157224011,Nursing Home Care,157208011,6851462,981,Nursing Home Care,6565
+1,157210011,Assessment & Diagnosis,157208011,6887745,714,Nursing Assessment & Diagnosis,1481
+1,157211011,Critical & Intensive care,157208011,6854620,875,Critical & Intensive Care Nursing,389
+1,157212011,Emergency,157208011,6782985,626,Emergency Nursing,898
+1,157213011,Fundamentals & Skills,157208011,6888079,1548,Nursing Fundamentals & Skills,33123
+1,157216011,Home & Community Care,157208011,6906342,986,Nursing Home & Community Care,4750
+1,157217011,"Issues, Trends & Roles",157208011,6848847,1004,"Nursing Issues, Trends & Roles",22338
+1,157218011,LPN & LVN,157208011,6838815,397,LPN & LVN Nursing,9606
+1,157230011,Reference,157208011,6903181,1021,Nursing Reference,9770
+1,157209011,Anesthesia,157208011,6939470,394,Nursing Anesthesia,4750
+1,157222011,Mental Health,157208011,6842786,1000,Mental Health Nursing,7523
+1,14530451011,Palliative Care,157208011,6822394,129,Palliative Care,174230
+1,157182011,Internal Medicine,157119011,6963580,15820,Internal Medicine,227
+1,157189011,Infectious Disease,157182011,6922814,1958,Infectious Disease,774
+1,157191011,Epidemiology,157189011,6955934,4455,Epidemiology,2925
+1,157192011,Parasitology,157189011,6914038,988,Parasitology,1481
+1,157190011,Communicable Diseases,157189011,6975804,7537,Communicable Diseases,866
+1,157193011,Tropical Medicine,157189011,6906462,785,Tropical Medicine,1636
+1,157194011,Nephrology,157182011,6964864,1883,Nephrology,14940
+1,157185011,Endocrinology & Metabolism,157182011,6964864,6040,Endocrinology & Metabolism,2916
+1,157207011,Urology,157182011,6940509,3547,Urology,10309
+1,157201011,Oncology,157182011,6975804,10003,Oncology,7430
+1,157203011,Chemotherapy,157201011,6919377,1242,Chemotherapy,13181
+1,157206011,Rheumatology,157182011,6972668,2392,Rheumatology,11683
+1,157183011,Cardiology,157182011,6971543,7678,Cardiology,7097
+1,157195011,Neurology,157182011,6976283,11827,Neurology,1149
+1,157188011,Hematology,157182011,6935201,2877,Hematology,5993
+1,157205011,Pulmonary,157182011,6965056,2795,Pulmonary,8086
+1,157186011,Gastroenterology,157182011,6964864,4764,Gastroenterology,3105
+1,157184011,Critical Care,157182011,6913568,3067,Internal Medicine Critical Care,342
+1,157265011,Specialties,157119011,6968803,10921,Medical Specialties,919
+1,157269011,Family & General Practice,157265011,6959479,6359,Family & General Practice,1809
+1,157271011,Obstetrics & Gynecology,157265011,6968803,7314,Obstetrics & Gynecology,3287
+1,157292011,Surgery,157265011,6972668,7251,Surgery,2478
+1,157297011,Cosmetic & Reconstructive,157292011,6956528,1910,Cosmetic & Reconstructive Surgery,28463
+1,157295011,Neurosurgery,157292011,6972939,1969,Neurosurgery,5593
+1,157299011,Vascular,157292011,6965056,837,Vascular Surgery,21752
+1,157298011,Cardiothoracic,157292011,6942641,1030,Cardiothoracic Surgery,10309
+1,157293011,Colon & Rectal,157292011,6906268,665,Colon & Rectal Surgery,11787
+1,157296011,Oral & Maxillofacial,157292011,6974092,710,Oral & Maxillofacial Surgery,1110
+1,157285011,Preventive Medicine,157265011,6937204,3395,Preventive Medicine,5349
+1,157287011,Radiology,157265011,6943865,3728,Radiology,10928
+1,157288011,Diagnostic Imaging,157287011,6952002,2141,Radiology Diagnostic Imaging,5593
+1,157290011,Ultrasonography,157287011,6884481,743,Radiology Ultrasonography,122855
+1,157967011,Orthopedics,157265011,6972668,4624,Orthopedics,6178
+1,157284011,Physical Medicine & Rehabilitation,157265011,6957855,3653,Physical Medicine & Rehabilitation,6797
+1,157267011,Dermatology,157265011,6951821,4667,Dermatology,4688
+1,157286011,Psychiatry,157265011,6961310,9167,Psychiatry,22
+1,157270011,Geriatrics,157265011,6964567,3072,Geriatrics,16803
+1,157266011,Anesthesiology,157265011,6949261,2523,Anesthesiology,20427
+1,157274011,Otolaryngology,157265011,6955934,1997,Otolaryngology,13350
+1,157273011,Ophthalmology,157265011,6964013,2917,Ophthalmology,9262
+1,157291011,Sports Medicine,157265011,6976283,2923,Sports Medicine,19839
+1,157272011,Occupational & Industrial Medicine,157265011,6886875,805,Occupational & Industrial Medicine,10309
+1,157268011,Emergency Medicine,157265011,6918985,4105,Emergency Medicine,877
+1,157280011,Pediatrics,157265011,6955934,6952,Pediatrics,9262
+1,157281011,Emergencies,157280011,6718463,378,Emergency Pediatrics,19840
+1,157283011,Perinatology & Neonatology,157280011,6939927,1171,Perinatology & Neonatology,14008
+1,157275011,Pathology,157265011,6955934,4310,Pathology,901
+1,157276011,Clinical Chemistry,157275011,6956421,5575,Pathology Clinical Chemistry,227
+1,157277011,Forensic Medicine,157275011,6940490,2196,Pathology Forensic Medicine,20978
+1,157279011,Laboratory Medicine,157275011,6960222,1333,Pathology Laboratory Medicine,3761
+1,18623149011,Sleep Medicine,157265011,4870696,109,Sleep Medicine,4972
+1,157130011,Allied Health Professions,157119011,6943318,7535,Allied Health Professions,1454
+1,157135011,Medical Technology,157130011,6964319,2082,Medical Technology,1454
+1,157138011,Physical Therapy,157130011,6976283,2559,Physical Therapy,6095
+1,157136011,Occupational Therapy,157130011,6976283,1442,Occupational Therapy,6527
+1,157141011,Respiratory Therapy,157130011,6871647,701,Respiratory Therapy,2778
+1,157132011,Emergency Medical Services,157130011,6920452,1527,Emergency Medical Services,1188
+1,157137011,Optometry,157130011,6867316,703,Optometry,7037
+1,157140011,Radiologic & Ultrasound Technology,157130011,6972939,1665,Radiologic & Ultrasound Technology,9292
+1,14530450011,Medical Coding & Billing,157130011,6939066,308,Medical Coding & Billing,3761
+1,157131011,Audiology & Speech Pathology,157130011,6943318,1480,Audiology & Speech Pathology,6922
+1,157134011,Medical Assistants,157130011,6916499,953,Medical Assistants,13308
+1,157139011,Podiatry,157130011,6963867,699,Podiatry,30624
+1,157178011,Education & Training,157119011,6953057,8986,Medical Education & Training,5564
+1,157162011,Dentistry,157119011,6974092,3704,Dentistry,7686
+1,157164011,Dental Hygiene,157162011,6976180,968,Dental Hygiene,7686
+1,157163011,Dental Assisting,157162011,6922267,740,Dental Assisting,9038
+1,157166011,Oral Surgery,157162011,6938487,879,Oral Surgery,9853
+1,157167011,Orthodontics,157162011,6742182,688,Orthodontics,15886
+1,157168011,Periodontics,157162011,6698450,500,Periodontics,26284
+1,157233011,Pharmacology,157119011,6975428,7795,Pharmacology,3631
+1,157236011,Pharmacy,157233011,6965240,6046,Pharmacy,6565
+1,157235011,Pain Medicine,157233011,6926213,2904,Pharmacology Pain Medicine,3631
+1,157237011,Toxicology,157233011,6946601,2598,Pharmacology Toxicology,7919
+1,157300011,Veterinary Medicine,157119011,6944714,3669,Veterinary Medicine,7111
+1,157301011,Equine Medicine,157300011,6936334,1225,Equine Medicine,26459
+1,157302011,Food Animals,157300011,6935201,2141,Food Animal Veterinary Medicine,3789
+1,157304011,Small Animal Medicine,157300011,6921572,2704,Small Animal Veterinary Medicine,19128
+1,157169011,Diseases,157119011,6964567,9621,Medical Diseases,1297
+1,157170011,AIDS & HIV,157169011,6943548,1424,AIDS & HIV,19016
+1,157175011,Extremities,157169011,6854488,214,Diseases of the Extremities,15549
+1,157171011,Brain,157169011,6766258,562,Brain Diseases,1408
+1,157172011,Cardiovascular,157169011,6186841,535,Cardiovascular Diseases,12691
+1,157174011,Digestive Organs,157169011,5098852,555,Digestive Organ Diseases,18095
+1,157177011,Viral,157169011,5574254,588,Viral Diseases,19840
+1,157255011,Research,157119011,6964319,11529,Medical Research,1454
+1,157258011,Special Topics,157119011,6963830,1496,Special Topics in Medicine,5798
+1,157259011,Biotechnology,157258011,6932984,5079,Medical Biotechnology,5798
+1,157262011,Nutrition,157258011,6975804,6204,Medical Nutrition,1034
+1,157263011,Prosthesis,157258011,6963830,398,Medical Prosthesis,26115
+1,157264011,Transportation,157258011,6696245,204,Medical Transportation,10309
+1,157260011,History,157258011,6957619,5581,Medical History,1884
+1,157261011,Lasers in Medicine,157258011,6825911,440,Lasers in Medicine,1454
+1,157254011,Reproductive Medicine & Technology,157119011,6953226,1779,Reproductive Medicine & Technology,1481
+1,157248011,Reference,157119011,6941486,3454,Medical Reference,844
+1,157249011,Dictionaries & Terminology,157248011,6932880,760,Medical Dictionaries & Terminology,15209
+1,157250011,Drug Guides,157248011,6940304,2218,Medical Drug Guides,844
+1,157252011,Instruments & Supplies,157248011,6940509,686,Medical Instruments & Supplies,3059
+1,157253011,Medical Atlases,157248011,6940960,948,Medical Medical Atlases,2123
+1,157238011,Physician & Patient,157119011,6914209,3572,Physician & Patient,2267
+1,157239011,Caregiving,157238011,6918323,3034,Physician & Patient Caregiving,3262
+1,157240011,Diagnosis,157238011,6946601,2910,Physician & Patient Diagnosis,4447
+1,157242011,Healing,157238011,6863563,4493,Physician & Patient Healing,1149
+1,157243011,Home Care,157238011,6935605,1641,Physician & Patient Home Care,1481
+1,157244011,Hospice Care,157238011,6905259,1051,Physician & Patient Hospice Care,3959
+1,157245011,Medical Ethics,157238011,6964114,3929,Physician & Patient Medical Ethics,1376
+1,157247011,Physicians,157238011,6833462,918,Physicians,20601
+1,157246011,Medical Procedure,157238011,6401327,108,Physician & Patient Medical Procedure,4447
+1,18623139011,Environmental Health,157119011,6896783,191,Environmental Health,91372
+1,18623147011,Military Medicine,157119011,4852534,94,Military Medicine,56848
+1,18623140011,Informatics,157119011,4812901,119,Medical Informatics,6565
+1,154607011,Arts & Photography,154606011,6982714,190294,Arts & Photography,187
+1,157630011,Architecture,154607011,6966575,22312,Architecture,187
+1,157637011,Drawing & Modelling,157630011,6898711,3936,Architecture Drawing & Modelling,3114
+1,157632011,Building Types & Styles,157630011,6950185,3776,Building Types & Styles eBooks,9627
+1,157634011,Religious Buildings,157632011,6968713,1137,Religious Buildings Architecture,13572
+1,157635011,Specific Styles,157632011,4719880,33,Specific Architecture Building Styles,51577
+1,157657011,Study & Teaching,157630011,6926355,1981,Architecture Study & Teaching,13197
+1,157658011,Urban & Land Use Planning,157630011,6978955,6057,Urban & Land Use Planning,9565
+1,157631011,"Architects, A-Z",157630011,6968713,1692,Individual Architects & Firms eBooks,10775
+1,157640011,History & Periods,157630011,6980816,7385,Architecture History & Periods,5132
+1,157655011,Project Planning & Management,157630011,6966722,3274,Architecture Project Management,1669
+1,157641011,Interior Design,157630011,6971860,2495,Interior Architectural Design,187
+1,157639011,Historic Preservation,157630011,6885075,1486,Historic Preservation,10349
+1,157654011,Landscape,157630011,6942874,3351,Landscape Architecture,10349
+1,157656011,Reference,157630011,6947888,1190,Architecture Reference,3518
+1,157645011,International,157630011,4727705,55,International Architecture,205408
+1,157647011,Asian,157645011,4781696,47,Asian Architecture,140853
+1,157652011,United States,157645011,5270247,31,United States Architecture,51577
+1,157649011,European,157645011,3758147,29,European Architecture,95906
+1,157648011,British,157645011,5210162,48,British Architecture,46786
+1,157651011,Middle Eastern,157645011,4514539,34,Middle Eastern Architecture,201652
+1,157653011,United States (Southern),157645011,3518129,21,United States (Southern) Architecture,97003
+1,157646011,African,157645011,4786427,20,African Architecture,156100
+1,157636011,Criticism,157630011,6941435,2481,Architecture Criticism,10802
+1,14530422011,Vernacular Architecture,157630011,6479776,42,Vernacular Architecture,10349
+1,154656011,Fashion,154607011,6932543,6522,Fashion & Art,2150
+1,154715011,Photography,154607011,6972319,57937,Photography,850
+1,2243074011,Erotica,154715011,6966646,30018,Erotic Photography,1283
+1,154735011,Travel,154715011,6944594,8490,Travel Photography,7523
+1,154740011,Central America,154735011,4010039,20,Central American Travel Photography,18333
+1,154747011,United States,154735011,6264979,39,United States Travel Photography,147296
+1,154749011,Mid Atlantic,154747011,4784906,28,Mid Atlantic US Travel Photography,9437
+1,154750011,Midwest,154747011,5242960,25,Midwest United States Travel Photography,9437
+1,154752011,South,154747011,6617427,26,South United States Travel Photography,248694
+1,154751011,New England,154747011,2720991,21,New England US Travel Photography,150041
+1,154753011,West,154747011,3838173,37,Western United States Travel Photography,28469
+1,154741011,Europe,154735011,4609170,127,European Travel Photography,132374
+1,154744011,Great Britain,154735011,3827616,22,British Travel Photography,338351
+1,154737011,Asia,154735011,6035665,51,Asian Travel Photography,140099
+1,154746011,South America,154735011,4010039,17,South American Travel Photography,97506
+1,154745011,Middle East,154735011,4226435,47,Middle Eastern Travel Photography,158171
+1,154739011,Canada,154735011,4010039,16,Canadian Travel Photography,29544
+1,154736011,Africa,154735011,3953142,27,African Travel Photography,25793
+1,154726011,History,154715011,6940321,8474,History of Photography,8166
+1,154724011,Fashion,154715011,6952527,4414,Fashion Photography,2151
+1,154730011,"Photographers, A-Z",154715011,6972319,7297,Individual Photographers eBooks,2569
+1,154732011,Portraits & Selfies,154715011,6969934,12926,Portraits & Selfies,2479
+1,154731011,Photojournalism,154715011,6922919,3313,Photojournalism,5599
+1,154734011,Reference,154715011,6895795,4642,Photography Reference,2479
+1,154723011,Equipment,154715011,6937157,2324,Photography Equipment,16607
+1,154729011,Photo Essays,154715011,6962490,7847,Photo Essays,5599
+1,154733011,Professional,154715011,6963632,2699,Professional Photography,8166
+1,154716011,Architectural,154715011,6966887,1129,Architectural Photography,33938
+1,154717011,Cinematography,154715011,6884156,1391,Cinematography,18603
+1,154718011,"Collections, Catalogues & Exhibitions",154715011,6961359,2525,Photography Collections & Exhibitions,2479
+1,154719011,Color,154715011,6810577,581,Color Photography,6588
+1,154720011,Criticism & Essays,154715011,6945557,803,Photography Criticism & Essays,32790
+1,154721011,Darkroom & Processing,154715011,6928682,373,Photography Darkroom & Processing,172203
+1,154722011,Digital Photography,154715011,6961524,5266,Digital Photography,2083
+1,154728011,Nature & Wildlife,154715011,6955783,10834,Nature & Wildlife Photography,850
+1,154727011,Lighting,154715011,6946017,744,Photography Lighting,10773
+1,14530433011,Street,154715011,6112217,118,Street Photography,31592
+1,14530432011,Food,154715011,5406007,80,Food Photography,106975
+1,14530434011,Underwater,154715011,5379860,38,Underwater Photography,159182
+1,14530430011,Astrophotography,154715011,5951037,83,Astrophotography,21892
+1,154657011,Graphic Design,154607011,6976059,10295,Graphic Design,2314
+1,154663011,Commercial,154657011,6865031,3366,Commercial Graphic Design,8669
+1,154668011,Illustration,154663011,6917360,1744,Commercial Illustration,8959
+1,154664011,Advertising,154663011,6915680,1551,Commercial Advertising,19979
+1,154666011,Fashion Design,154663011,6937740,8346,Commercial Fashion,2150
+1,154665011,Annuals,154663011,6639901,416,Annuals Commercial Graphic Design,28490
+1,154669011,Science Illustration,154663011,0,0,Commercial Science Illustration,0
+1,154687011,Pop Culture,154657011,6936912,5975,Pop Culture in Graphic Design,2536
+1,154690011,Typography,154657011,6858396,724,Typography,22845
+1,154688011,Printmaking,154657011,6779535,626,Printmaking,3935
+1,154662011,Clip Art,154657011,6812172,1218,Graphic Design Clip Art,68412
+1,154659011,Animation,154657011,6921839,1053,Animation Graphic Design,6818
+1,154682011,Graphic Arts,154657011,6915680,2791,Graphic Arts,2455
+1,154685011,Use of Ornament,154682011,4343118,34,Use of Ornament in Graphic Arts,446108
+1,154684011,Use of Color,154682011,5042544,120,Use of Color in Graphic Arts,7523
+1,154670011,Design,154657011,6976059,4695,Design,2314
+1,154671011,Books,154670011,6976059,4146,Graphic Design of Books,1872
+1,154672011,Decorative,154670011,6835331,2105,Decorative Graphic Design,5457
+1,154673011,Furniture,154670011,6906292,1293,Furniture Design,5477
+1,154675011,Textile & Costume,154670011,6879550,2905,Textile & Costume,2314
+1,14530428011,Jewelry,154670011,4820765,126,Jewelry Design,140342
+1,154661011,Cartooning,154657011,6833260,2360,Cartooning in Graphic Design,1496
+1,154676011,Drawing,154657011,6920518,8612,Graphic Design Drawing,1082
+1,154679011,Pen & Ink,154676011,6895661,1444,Graphic Design Pen & Ink Drawing,7008
+1,154680011,Pencil,154676011,6932204,2746,Graphic Design Pencil Drawing,6552
+1,154678011,Pastel,154676011,6482312,354,Graphic Design Pastel Drawing,11420
+1,154681011,Specific Objects,154676011,3618426,69,Graphic Design Drawing Specific Objects,79119
+1,154658011,Airbrush,154657011,6551803,170,Airbrush Graphic Design,55112
+1,154660011,Calligraphy,154657011,6901340,2199,Calligraphy in Graphic Design,74785
+1,154689011,Silk Screen & Batik,154657011,4955015,22,Silk Screen & Batik,105666
+1,154686011,Lithography,154657011,4343118,33,Lithography,105666
+1,154692011,Dance,154607011,6920460,3041,Dance,9896
+1,154696011,Folk,154692011,6817807,430,Folk Dance,21416
+1,154693011,Ballet,154692011,6598532,367,Ballet,4161
+1,154700011,Notation,154692011,6920128,293,Dance Notation,181864
+1,154694011,Ballroom,154692011,6748200,426,Ballroom Dance,30138
+1,154701011,Popular,154692011,6580460,540,Popular Dance,39668
+1,154702011,Reference,154692011,6939209,372,Dance Reference,21416
+1,154695011,Classical,154692011,6901458,1097,Classical Dance,9896
+1,154699011,Modern,154692011,6938889,549,Modern Dance,69712
+1,154698011,Jazz,154692011,6451833,163,Jazz Dance,135119
+1,154703011,Tap,154692011,5937298,107,Tap Dance,70792
+1,154691011,Performing Arts,154607011,6968650,32438,Performing Arts,2639
+1,154655011,Individual Artists,154607011,6967990,10010,Individual Artists,2536
+1,154608011,Art,154607011,6970413,70730,Art,231
+1,154650011,Painting,154608011,6920518,7594,Painting,1427
+1,2309013011,Erotica,154608011,6880955,3668,Erotic Art,1409
+1,154633011,Instruction & Reference,154608011,6970413,8305,Art Instruction & Reference,4044
+1,154634011,Business of Art,154633011,6947204,5260,Business of Art,9355
+1,154639011,Reference,154633011,6939209,2913,Art Reference,11525
+1,154636011,Color,154633011,6909624,3024,Color in Art,5200
+1,154637011,Figure Drawing,154633011,6857860,2463,Figure Drawing,1082
+1,154640011,Study & Teaching,154633011,6936546,4042,Art Study & Teaching,7123
+1,154635011,Collecting,154633011,4874469,48,Art Collecting,4044
+1,11650838011,Subjects & Themes,154608011,6970413,2370,Art Subjects & Themes,231
+1,11650840011,Human Figure,11650838011,6857860,1871,Human Figure Art,2479
+1,11650842011,Plants & Animals,11650838011,6836219,2108,Plant & Animal Art,231
+1,11650841011,Landscapes & Seascapes,11650838011,6901525,2004,Landscapes & Seascapes Art,10292
+1,11650843011,Science Fiction & Fantasy,11650838011,6888519,812,Science Fiction & Fantasy Art,19658
+1,16232443011,Environmental & Land Art,11650838011,5184202,77,Environmental & Land Art,291911
+1,154641011,Museums & Collections,154608011,6939209,2852,Museums & Art Collections,4167
+1,154643011,Museums,154641011,6930491,2239,Museum Studies & Museology,11585
+1,154644011,Private,154641011,5082740,38,Private Museums & Collections,37132
+1,154653011,Religious,154608011,6930491,1914,Religious Art,17408
+1,154645011,Other Media,154608011,6912382,1138,Other Art Media,2479
+1,154648011,Mixed Media,154645011,6923973,1827,Mixed Media,13657
+1,154646011,Ceramics,154645011,6790348,868,Ceramic Arts,50185
+1,154647011,Conceptual,154645011,6906325,2505,Conceptual Arts,3052
+1,154649011,Mosaic,154645011,4846080,114,Mosaic Arts,13791
+1,17744479011,Video Games,154645011,4774693,202,Video Game Art,54104
+1,154654011,Sculpture,154608011,6955186,2695,Sculpture,14805
+1,154609011,Art History,154608011,6966724,12172,Art History,523
+1,154621011,"Schools, Periods & Styles",154609011,6966724,9038,"Art History Schools, Periods & Styles eBooks",523
+1,154623011,Baroque,154621011,6911878,680,Baroque Art,11430
+1,154626011,Modern,154621011,6966724,4686,Modern Art,523
+1,154622011,Ancient & Classical,154621011,6949644,1730,Ancient & Classical Art,4725
+1,154630011,Romantic,154621011,6889110,616,Romantic Art,52943
+1,154625011,Medieval,154621011,6956343,993,Medieval Art,5139
+1,154628011,Prehistoric & Primitive,154621011,6858991,416,Prehistoric & Primitive Art,13335
+1,154629011,Renaissance,154621011,6933435,1751,Renaissance Art,2244
+1,154624011,Impressionism,154621011,4313454,30,Impressionism Art,523
+1,154631011,Surrealism,154621011,4175187,24,Surrealism Art,67355
+1,154612011,Regional,154609011,6956831,5168,Regional Art History,1109
+1,154615011,Asian,154612011,6935285,6346,Asian Art History,4843
+1,154617011,European,154612011,6956831,4198,European Art History,2244
+1,154616011,Caribbean & Latin American,154612011,6824475,822,Caribbean & Latin American Art History,11712
+1,154613011,African,154612011,6935830,1936,African Art History,11507
+1,154614011,Black & African American,154612011,6904843,752,Black & African American Art History,2472
+1,154618011,Middle Eastern,154612011,6902340,532,Middle Eastern Art History,24066
+1,154619011,Native American,154612011,6811351,617,Native American Art History,5517
+1,154620011,United States,154612011,6948862,2671,United States Art History,2536
+1,154610011,Criticism,154609011,6940661,7856,Art History Criticism,5387
+1,17744480011,Women Artists,154608011,6923303,311,Women Artists,68100
+1,154704011,Theater,154607011,6965014,55573,Theater,64
+1,154705011,Acting & Auditioning,154704011,6948322,5081,Theater Acting & Auditioning,1615
+1,154706011,Broadway & Musicals,154704011,6826631,1429,Broadway & Musicals,1615
+1,154707011,Circus,154704011,6795071,596,Circus Theater,1502
+1,154708011,Direction & Production,154704011,6955103,1482,Theater Direction & Production,54797
+1,154710011,History & Criticism,154704011,6971340,8840,Theater History & Criticism,8093
+1,154712011,Playwriting,154704011,6964136,5550,Playwriting,3475
+1,154714011,Stagecraft,154704011,6913593,1798,Stagecraft,6991
+1,154711011,Miming,154704011,6852918,167,Miming,25175
+1,154713011,Puppets & Puppetry,154704011,6833904,341,Puppets & Puppetry,18414
+1,156302011,Music,154607011,6982714,111999,Music eBooks,999
+1,156303011,Business,156302011,6942543,2781,Music Business,3125
+1,156305011,History & Criticism,156302011,6976523,11652,Music History & Criticism,1353
+1,156306011,Instruments & Performers,156302011,6962226,13903,Music Instruments & Performers,1031
+1,156307011,Brass,156306011,6924051,1712,Brass Instrument Music,23755
+1,156311011,Piano,156306011,6967865,8224,Piano Music,1450
+1,156313011,Voice,156306011,6913041,2546,Voice Music,4054
+1,156310011,Percussion,156306011,6929260,1731,Percussion Instruments,2090
+1,156312011,Strings,156306011,6974894,3174,String Instruments,2300
+1,156314011,Woodwinds,156306011,6929301,3778,Woodwind Instrument Music,1031
+1,156309011,Guitar,156306011,6962226,7100,Guitar Music,1390
+1,156315011,Musical Genres,156302011,6941681,12628,Musical Genres eBooks,1963
+1,156332011,Heavy Metal,156315011,6906077,1142,Heavy Metal Music,3038
+1,156323011,Ethnic & International,156315011,6951605,1780,Ethnic & International Music,14571
+1,156326011,International,156323011,6951323,810,International Music,25823
+1,156327011,Salsa,156323011,6920996,462,Salsa Music,23148
+1,156324011,Ethnomusicology,156323011,6940177,2544,Ethnomusicology,13357
+1,156343011,Religious & Sacred Music,156315011,6962194,1496,Religious & Sacred Music,6035
+1,156346011,Gospel,156343011,6625877,527,Gospel Religious & Sacred Music,60401
+1,156344011,Christian,156343011,6952997,1964,Christian Religious & Sacred Music,6035
+1,156347011,Hymns,156343011,6617737,1210,Hymns Religious & Sacred Music,25617
+1,156348011,Jewish,156343011,6844860,200,Jewish Religious & Sacred Music,259771
+1,156349011,Muslim,156343011,5506898,106,Muslim Religious & Sacred Music,146271
+1,156338011,Opera,156315011,6958760,2537,Opera Music,43474
+1,156351011,Rock,156315011,6973290,7336,Rock Music,90
+1,156321011,Contemporary Christian,156315011,6955252,747,Contemporary Christian Music,726
+1,156339011,Popular,156315011,6973290,4943,Popular Music,1641
+1,156318011,Classical,156315011,6974894,8542,Classical Music,13730
+1,156317011,Blues,156315011,6932206,1237,Blues Music,14877
+1,156334011,Lullabies,156315011,6971537,1796,Lullabies,21268
+1,156342011,Reggae,156315011,6702054,266,Reggae Music,61750
+1,156352011,Soul,156315011,6852705,640,Soul Music,36805
+1,156340011,Punk,156315011,6956001,1023,Punk Music,11377
+1,156341011,Rap,156315011,6867992,1420,Rap Music,3125
+1,156330011,Folk & Traditional,156315011,6943322,2818,Folk & Traditional Music,30058
+1,156333011,Jazz,156315011,6927891,3018,Jazz Music,18528
+1,156337011,New Age,156315011,6706241,516,New Age Music,8460
+1,156322011,Country,156315011,6735948,1331,Country Music,3864
+1,156336011,Musicals,156315011,6792305,1104,Musicals,17750
+1,156335011,Military Marches,156315011,6664621,267,Military Marches,25386
+1,14530429011,Philosophy & Social Aspects,156302011,6122607,740,Philosophy & Social Aspects of Music,1727
+1,156353011,Recording & Sound,156302011,6838502,2399,Music Recording & Sound,9707
+1,156354011,Reference,156302011,6980615,9289,Music Reference,13357
+1,156357011,Songbooks,156302011,6974894,30896,Music Songbooks,5812
+1,156358011,"Theory, Composition & Performance",156302011,6973290,22158,"Music Theory, Composition & Performance",3177
+1,156361011,Conducting,156358011,6906383,341,Music Conducting,92317
+1,156364011,"MIDI, Mixers, etc.",156358011,6916196,610,Music MIDI & Mixers,9707
+1,156371011,Techniques,156358011,6968650,4403,Music Techniques,5259
+1,156359011,Appreciation,156358011,6929141,1560,Music Appreciation,12663
+1,156370011,Songwriting,156358011,6941780,1357,Music Songwriting,6053
+1,156360011,Composition,156358011,6963357,1603,Music Composition,6053
+1,156372011,Theory,156358011,6976523,3856,Music Theory,3177
+1,156362011,Exercises,156358011,6950841,3011,Music Theory Exercises,5812
+1,156363011,Instruction & Study,156358011,6950841,9491,Music Instruction & Study,1450
+1,17744481011,Essays,156302011,6772252,272,Music Essays,25484
+1,158280011,Religion & Spirituality,154606011,6975835,462412,Religion & Spirituality,82
+1,158479011,New Age,158280011,6962884,64263,New Age Religion & Spirituality,115
+1,8917468011,Chakras,158479011,6958886,12999,Chakras,1961
+1,158496011,Mental & Spiritual Healing,158479011,6963625,26266,New Age Mental & Spiritual Healing,1691
+1,158495011,Meditation,158479011,6963625,36068,New Age Meditation,1625
+1,158484011,Divination,158479011,6957102,7396,New Age Divination,2083
+1,158489011,Numerology,158484011,6918979,22875,New Age Divination with Numerology,2424
+1,158486011,Fortune Telling,158484011,6902921,3442,New Age Fortune Telling,2995
+1,158492011,Tarot,158484011,6957102,3455,New Age Divination with Tarot,2083
+1,158488011,Graphology,158484011,6972911,597,New Age Divination with Graphology,25644
+1,158490011,Palmistry,158484011,6952086,532,New Age Divination with Palmistry,2424
+1,158485011,Crystals,158484011,6934957,2404,New Age Divination with Crystals,2197
+1,158491011,Prophecy,158484011,6908525,3815,New Age Divination with Prophecy,2424
+1,158497011,Mysticism,158479011,6954438,10964,New Age Mysticism,3894
+1,158483011,Channeling,158479011,6951682,9037,New Age Channeling,1961
+1,158501011,Self-Help,158479011,6909558,1723,New Age Self-Help,115
+1,158502011,Theosophy,158479011,6959945,2590,New Age Theosophy,7146
+1,158480011,Astrology,158479011,6951882,9404,New Age Astrology,1136
+1,6361643011,Eastern Astrology,158480011,6765220,2196,Eastern Astrology,18527
+1,158482011,Horoscopes,158480011,6951882,28906,New Age Horoscopes,4226
+1,158500011,Reincarnation,158479011,6963625,11636,New Age Reincarnation,622
+1,158499011,Reference,158479011,6946733,2813,New Age Reference,282
+1,158494011,Goddesses,158479011,6926009,2214,New Age Goddesses,1419
+1,158493011,Dreams,158479011,6970948,6925,New Age Dreams,2474
+1,158498011,New Thought,158479011,6963625,19163,New Age New Thought,194
+1,158442011,Hinduism,158280011,6946325,9765,Hinduism,3215
+1,8917459011,History,158442011,6939410,2165,Hindu History,4255
+1,8917457011,Bhagavad Gita,158442011,6756827,2061,Bhagavad Gita,794
+1,8917460011,Rituals & Practice,158442011,6893739,2484,Hindu Rituals & Practice,4255
+1,8917461011,Sacred Writings,158442011,6927681,3948,Hindu Sacred Writings,4255
+1,8917463011,Theology,158442011,6912269,1414,Hindu Theology,4255
+1,158454011,Judaism,158280011,6956565,8950,Judaism,1207
+1,158462011,Jewish Life,158454011,6844860,2010,Jewish Life,1746
+1,158468011,Music,158454011,6962194,759,Jewish Music,13858
+1,158460011,History of Religion,158454011,6950256,3439,Jewish History of Religion,952
+1,158464011,Movements,158454011,6899862,299,Jewish Religious Movements,28873
+1,158465011,Conservative,158464011,6909558,229,Conservative Judaism,1789
+1,158466011,Orthodox,158464011,6950256,836,Orthodox Judaism,8790
+1,158467011,Reform,158464011,6909558,259,Reform Judaism,4255
+1,158461011,Holidays,158454011,6558985,400,Jewish Holidays,19780
+1,158469011,Prayerbooks,158454011,6732207,547,Jewish Prayerbooks,4834
+1,158470011,Sacred Writings,158454011,6934410,2701,Jewish Sacred Writings,3659
+1,158472011,Hebrew Bible (Old Testament),158470011,6969196,4176,Hebrew Bible (Old Testament),342
+1,158473011,Biography,158472011,6825816,1609,Hebrew Bible (Old Testament) Biographies,1656
+1,158474011,Meditations,158472011,6913827,2085,Hebrew Bible (Old Testament) Meditations,10151
+1,158476011,Kabbalah,158470011,6934410,2384,Kabbalah,11315
+1,158477011,Talmud,158470011,6767301,624,Talmud,3659
+1,158459011,Hasidism,158454011,6909558,372,Jewish Hasidism,8790
+1,158287011,Buddhism,158280011,6966709,12859,Buddhism,351
+1,158289011,History,158287011,6842471,2263,Buddhist History,4943
+1,158290011,Rituals & Practice,158287011,6856212,3178,Buddhist Rituals & Practice,3731
+1,158291011,Sacred Writings,158287011,6904919,2375,Buddhist Sacred Writings,16874
+1,158292011,Theravada,158287011,6901135,1051,Theravada Buddhism,13735
+1,158293011,Tibetan,158287011,6937455,2853,Tibetan Buddhism,13081
+1,158294011,Zen,158287011,6897740,2892,Zen Buddhism,2408
+1,158295011,Zen Philosophy,158287011,6908522,2228,Zen Philosophy,351
+1,158532011,"Other Religions, Practices & Sacred Texts",158280011,6964400,8780,"Other Religions, Practices & Sacred Texts",3666
+1,158537011,Mysticism,158532011,6913337,6680,Mysticism,3440
+1,6361655011,Deism,158532011,6868813,632,Deism,3659
+1,158535011,Messianic Judaism,158532011,6850377,1882,Messianic Judaism,5470
+1,8917478011,Native American Religions & Spirituality,158532011,6800831,1616,Native American Religions & Spirituality,1377
+1,158521011,Baha'i,158532011,6918327,858,Baha'i,24368
+1,158539011,Tribal & Ethnic,158532011,6918897,1818,Tribal & Ethnic Religions,5517
+1,158540011,Unitarian Universalism,158532011,6909558,525,Unitarian Universalism,1370
+1,8917481011,Gender & Sexuality,158532011,6978575,3338,Gender & Sexuality in Religious Studies,3816
+1,158534011,Freemasonry,158532011,6888881,2392,Freemasonry,4364
+1,158533011,Eckankar,158532011,5475203,318,Eckankar,5622
+1,158433011,Theism,158532011,6774220,882,Theism Christian Theology,178
+1,8917454011,Earth-Based Religions,158280011,6950857,3644,Earth-Based Religions,2090
+1,6361646011,Gaia & Earth Energies,8917454011,6890018,2793,Gaia Religions,282
+1,6361647011,Paganism & Neo-Paganism,8917454011,6978575,3838,Paganism & Neo-Paganism,282
+1,8917456011,Shamanism,8917454011,6916595,3237,Shamanism,282
+1,6361650011,Wicca & Witchcraft,8917454011,6961024,9100,Wicca & Witchcraft,2090
+1,6361645011,Celtic,8917454011,6943018,2068,Celtic Religions,5461
+1,158443011,Islam,158280011,6974604,15710,Islam,1789
+1,158446011,History,158443011,6952381,4536,Islamic History,6836
+1,158450011,Quran,158443011,6985073,5043,Islamic Quran,3198
+1,158447011,Law,158443011,6917583,1882,Islamic Law,13608
+1,158453011,Theology,158443011,6949493,2034,Islamic Theology,3425
+1,158452011,Sunnism,158443011,6940418,2646,Islamic Sunnism,8633
+1,6361641011,Rituals & Practice,158443011,6924738,2747,Islamic Rituals & Practice,16380
+1,8917465011,Women in Islam,158443011,6813283,1319,Women in Islam,3425
+1,158451011,Shi'ism,158443011,6908316,868,Islamic Shi'ism,1789
+1,6361642011,Sufism,158443011,6918047,2560,Sufism,8633
+1,158449011,Music,158443011,5506898,125,Islamic Music,115507
+1,158554011,Atheism,158280011,6904664,3745,Atheism,11792
+1,158552011,Agnosticism,158280011,6914229,2247,Agnosticism,10699
+1,158541011,Religious Studies & Reference,158280011,6947487,12089,Religious Studies & Reference,1356
+1,8917480011,Antiquities & Archaeology,158541011,6945206,3046,Religious Antiquities & Archaeology,4917
+1,6361651011,Blasphemy,158541011,6920358,1538,"Blasphemy, Heresy & Apostasy",10334
+1,158542011,Church & State,158541011,6974029,8980,Religious Studies - Church & State,3503
+1,158543011,Comparative Religion,158541011,6946325,7714,Religious Studies - Comparative Religion,8103
+1,158423011,Ecumenism,158541011,6939318,1697,Ecumenism Christian Theology,7773
+1,158545011,Education,158541011,6959945,8227,Religious Studies - Education,4479
+1,6361652011,Eschatology,158541011,6955699,3369,Eschatology,2314
+1,6361653011,Essays,158541011,6907663,3022,Religious Essays,5349
+1,158546011,Ethics,158541011,6906818,3726,Religious Studies - Ethics,5467
+1,158426011,Fundamentalism,158541011,6847380,1434,Religious Fundamentalism,5646
+1,6361656011,Gnosticism,158541011,6893761,1631,Gnosticism,11699
+1,158547011,History,158541011,6974604,16647,Religious Studies - History,548
+1,10933078011,Leadership,158541011,6930175,4618,Religious Leadership,7708
+1,158428011,Philosophy,158541011,6957177,8738,Religious Studies - Philosophy,115
+1,158548011,Psychology,158541011,6924670,2601,Religious Studies - Psychology,4772
+1,8917482011,Reference,158541011,6926667,3762,Religious Reference,9453
+1,6361654011,Religious Intolerance,158541011,6960320,2409,Religious Intolerance,14351
+1,158549011,Science & Religion,158541011,6937662,8941,Religious Studies - Science & Religion,1383
+1,158550011,Sociology,158541011,6969204,7929,Religious Studies - Sociology,9232
+1,8917483011,Theology,158541011,6962194,13661,Theology,1260
+1,6361629011,Christian Literature & Art,158541011,6847640,2460,Christian Literature & Art,7758
+1,158544011,Controversial Knowledge,158541011,6003600,391,Controversial Religious Knowledge,8877
+1,158503011,Occult,158280011,6974668,98247,Occult,126
+1,8917471011,Alchemy,158503011,6911446,3462,Alchemy,1515
+1,158504011,Astral Projection,158503011,6963625,12601,Occult Astral Projection,1992
+1,158506011,Cults & Demonism,158503011,6947745,2668,Occult Cults & Demonism,2767
+1,158507011,ESP,158503011,6955029,2188,Occult ESP,1112
+1,8917472011,Ghosts & Haunted Houses,158503011,6955120,8291,Occult Ghosts & Haunted Houses,133
+1,158509011,Magic,158503011,6953770,8454,Occult Magic,53
+1,158510011,Metaphysical Phenomena,158503011,6885618,3155,Occult Metaphysical Phenomena,1515
+1,158511011,Near-Death Experiences,158503011,6909558,1257,Occult Near-Death Experiences,2283
+1,158512011,Occultism,158503011,6955026,10945,Occult Occultism,662
+1,158513011,Parapsychology,158503011,6929565,3333,Occult Parapsychology,866
+1,158514011,Rosicrucianism,158503011,6820356,2238,Occult Rosicrucianism,1455
+1,158515011,Satanism,158503011,6902856,3179,Occult Satanism,2106
+1,158516011,Spiritualism,158503011,6968735,18021,Occult Spiritualism,34
+1,158517011,Supernatural,158503011,6955120,11469,Occult Supernatural,34
+1,158518011,UFOs,158503011,6974668,6036,Occult UFOs,987
+1,158519011,Unexplained Mysteries,158503011,6935180,19352,Occult Unexplained Mysteries,987
+1,158296011,Christian Books & Bibles,158280011,6964437,248356,Christian eBooks & Bibles,82
+1,6190467011,Christian Fiction,158296011,6971083,35464,Christian Fiction,216
+1,6190471011,Historical,6190467011,6914714,19283,Christian Historical Fiction,84
+1,6190472011,Romance,6190467011,6908068,20235,Christian Romance,40
+1,8917424011,Contemporary,6190472011,6922917,16188,Contemporary Christian Romance,5
+1,8917428011,Western & Frontier,6190472011,6744338,12077,Western & Frontier Christian Romance,12
+1,8917427011,Mystery & Suspense,6190472011,6899415,12709,Christian Mystery & Suspense Romance,5
+1,8917426011,Historical,6190472011,6919045,10892,Historical Christian Romance Fiction,11
+1,8917420011,Classics & Allegories,6190467011,6955111,5814,Christian Classics & Allegories,370
+1,6190473011,Collections & Anthologies,6190467011,6941939,5662,Christian Short Stories,12
+1,6190468011,Fantasy,6190467011,6939322,12872,Christian Fantasy,330
+1,6190469011,Futuristic,6190467011,6930506,4783,Christian Futuristic Fiction,189
+1,8917421011,Poetry,6190467011,6972170,8967,Christian Poetry,1935
+1,6190475011,Westerns,6190467011,6888494,10520,Christian Westerns,84
+1,6190474011,Mystery & Suspense,6190467011,6903926,19355,Christian Suspense,5
+1,158327011,Christian Living,158296011,6966623,119329,Christian Living,82
+1,6361616011,Spiritual Growth,158327011,6983130,60854,Christian Spiritual Growth,507
+1,8917433011,Self-Help,158327011,6945952,20346,Christian Self-Help,82
+1,158353011,Holidays,158327011,6930862,3015,Christian Holidays,7226
+1,158355011,Easter,158353011,6936738,1487,Easter,9431
+1,158354011,Christmas,158353011,6919577,9186,Christmas,337
+1,6361608011,Inspirational,158327011,6971903,42158,Christian Inspiration,116
+1,8917432011,Personal Growth,158327011,6974868,34518,Personal Growth & Christianity,671
+1,6361613011,Professional Growth,158327011,6849721,4314,Christian Professional Growth,1562
+1,8917434011,Social Issues,158327011,6953399,8674,Social Issues & Christianity,2849
+1,158330011,Faith,158327011,6960391,15674,Christian Faith,1444
+1,6361615011,Dating & Relationships,158327011,6965233,7084,Christian Dating & Relationships,859
+1,8917430011,Marriage,158327011,6930032,9638,Christian Marriage,1589
+1,6361612011,Prayer,158327011,6950682,17408,Christian Prayer,346
+1,158332011,Leadership,158327011,6904620,2954,Christian Leadership,7708
+1,158328011,Counseling,158327011,6950814,3806,Christian Counseling,9402
+1,158357011,Music,158327011,6952997,1313,Christian Music,12075
+1,8917431011,Songbooks & Chorale Music,158357011,6911894,840,Christian Chorale Music,31899
+1,158358011,Contemporary,158357011,6955252,622,Christian Contemporary Music,23687
+1,158361011,Hymns,158357011,6617737,1131,Christian Hymns,25617
+1,158360011,Gospel,158357011,6625877,515,Christian Gospel Music,60401
+1,6361606011,Death & Grief,158327011,6919153,4861,Christian Death & Grief Counseling,5251
+1,6361611011,Men's Christian Living,158327011,6872195,3373,Men's Christian Living,2256
+1,158333011,Stewardship,158327011,6900901,2697,Christian Stewardship,2704
+1,6361607011,Devotionals,158327011,6963304,27187,Christian Devotionals,691
+1,8917429011,Family,158327011,6965233,18045,Christian Families,187
+1,158334011,Women's Christian Living,158327011,6974868,11561,Women's Christian Living,436
+1,158380011,Bible Study & Reference,158296011,6959199,34764,Christian Reference,1656
+1,158398011,Meditations,158380011,6955430,8282,Christian Meditations,994
+1,158400011,New Testament,158398011,6959663,3143,Christian New Testament Meditations,10151
+1,158401011,Old Testament,158398011,6913827,2179,Christian Old Testament Meditations,10151
+1,158405011,Quotations,158380011,6879841,1186,Christian Quotations,3336
+1,158385011,Commentaries,158380011,6963999,13849,Christian Commentaries,2391
+1,158388011,Old Testament,158385011,6927654,6845,Christian Old Testament Commentaries,3750
+1,158387011,New Testament,158385011,6930976,9955,Christian New Testament Commentaries,830
+1,158404011,Prophecies,158380011,6962924,6188,Christian Prophecy,2610
+1,8917411011,History & Culture,158380011,6955570,3408,Christian Bible History & Culture,3316
+1,8917415011,Old Testament Study,158380011,4855674,1094,Old Testament Bible Study,3845
+1,158403011,Bible Study,8917415011,6950466,8079,Christian Old Testament Study,2838
+1,8917412011,New Testament Study,158380011,5779806,3196,New Testament Bible Study,2411
+1,8917414011,Paul's Letters,8917412011,6870634,3317,Paul's Letters,8315
+1,8917413011,"Jesus, the Gospels & Acts",8917412011,6930077,7346,"Jesus, the Gospels & Acts",2024
+1,158402011,Bible Study,8917412011,6956565,9888,Christian New Testament Study,2282
+1,8917416011,Prophets,158380011,6903722,1742,Christian Prophets,7894
+1,158382011,Biographies,158380011,6908988,2501,Christian Biographies,1656
+1,158383011,New Testament,158382011,6956565,1587,Christian New Testament Biographies,5994
+1,158384011,Old Testament,158382011,6825816,1673,Christian Old Testament Biographies,1656
+1,8917410011,Handbooks,158380011,6955570,1555,Christian Bible Handbooks,3750
+1,158389011,Concordances,158380011,6575687,455,Christian Concordances,5748
+1,8917417011,Wisdom Literature,158380011,6923935,3152,Christian Wisdom Literature,82
+1,158394011,Dictionaries & Encyclopedias,158380011,6882318,1368,Christian Dictionaries & Encyclopedias,34702
+1,8917407011,Atlases,158380011,6681826,373,Christian Bible Atlases,2978
+1,158397011,Language Studies,158380011,6950466,1099,Christian Language Studies,49225
+1,158390011,Criticism & Interpretation,158380011,6960391,8455,Christian Criticism & Interpretation,2451
+1,158392011,New Testament,158390011,6956565,4965,Christian New Testament Criticism,2282
+1,158396011,Exegesis & Hermeneutics,158390011,6929446,4928,Christian Hermeneutics,5075
+1,158393011,Old Testament,158390011,6969196,4157,Christian Old Testament Criticism,342
+1,158381011,Bible Study,158380011,6980777,18472,Christian Bible Study,1989
+1,8917409011,Guides,158381011,6944382,14803,Christian Bible Study Guides,183
+1,158348011,Education,158296011,6957531,30737,Christian Education,183
+1,8917438011,Adult,158348011,6970336,4897,Adult Christian Education,994
+1,8917441011,Homeschooling,158348011,6911729,1173,Christian Homeschooling,8805
+1,8917439011,Children & Teens,158348011,6959663,5643,Children's & Teens' Christian Education,3954
+1,8917435011,Churches & Church Leadership,158296011,6974599,26609,Christian Ministry & Church Leadership,763
+1,158340011,Church Administration,8917435011,6829355,2243,Christian Church Administration,2418
+1,6361626011,Church Leadership,8917435011,6960975,7251,Christian Church Leadership,2418
+1,8917436011,Pastoral Resources,8917435011,6886100,11048,Christian Pastoral Resources,1921
+1,158341011,Church Institutions & Organizations,8917435011,6962194,2946,Christian Institutions & Organizations,4707
+1,6361621011,Church Growth,8917435011,6872516,4746,Christian Church Growth,1562
+1,6361623011,Church History,8917435011,6939318,8946,Christian Church History,708
+1,158418011,Canon Law,8917435011,6942593,1046,Christian Canon Law,7944
+1,8917442011,History,158296011,6974599,13671,Christian Church & Bible History,763
+1,158364011,Protestantism,158296011,6974599,9071,Christian Protestantism,3582
+1,158378011,Seventh-Day Adventist,158364011,6966149,2591,Seventh-Day Adventist Christianity,4902
+1,158368011,Episcopalian,158364011,6855449,980,Episcopalian Christianity,2256
+1,6361605011,Calvinist,158364011,6890519,3135,Calvinist Christianity,17259
+1,158366011,Anglican,158364011,6939318,1579,Anglican Christianity,38179
+1,158367011,Baptist,158364011,6924040,2267,Baptist Christianity,6230
+1,158376011,Quaker,158364011,6806700,1081,Quaker Christianity,2474
+1,6361632011,Presbyterian,158364011,6714456,1029,Presbyterian,6230
+1,158379011,Shaker,158364011,6617737,333,Shaker Christianity,2474
+1,158372011,Lutheran,158364011,6970011,1934,Lutheran Christianity,7523
+1,158374011,Methodist,158364011,6734314,1344,Methodist Christianity,2978
+1,158375011,Pentecostal,158364011,6937159,6392,Pentecostal Christianity,1562
+1,6361628011,Worship & Devotion,158296011,6947745,5964,Christian Worship & Liturgy,1614
+1,158363011,Prayer Books,6361628011,6886716,6577,Christian Prayer Books,994
+1,6361627011,Sacraments,6361628011,6860254,1729,Christian Sacraments,3190
+1,8917453011,Rites & Ceremonies,6361628011,6904460,4637,Christian Rites & Ceremonies,9147
+1,8917452011,Meditations,6361628011,6847640,3785,Christian Meditation Worship & Devotion,994
+1,158536011,Monasticism & Asceticism,6361628011,6904517,1018,Christian Monasticism & Asceticism,994
+1,158419011,Catechisms,6361628011,6964444,1022,Christian Catechisms,8467
+1,158297011,Bibles,158296011,6964437,12274,Christian Bibles,679
+1,158305011,God's Word,158297011,6918327,8282,God's Word Christian Bibles,1618
+1,8917394011,Christian Standard Version,158297011,6965697,6628,Christian Standard Version Bibles,3281
+1,158306011,International Children's,158297011,6844680,761,International Children's Christian Bibles,2474
+1,158307011,King James Version,158297011,6913827,5037,King James Christian Bibles,987
+1,158313011,New International Version,158297011,6806802,996,New International Christian Bibles,3525
+1,158300011,Parallel Editions,158297011,6890738,2047,Parallel Bible Editions,3525
+1,8917396011,Multiple Translations,158297011,6890738,1655,Multiple Translations Christian Bibles,9168
+1,158309011,New American,158297011,6904414,334,New American Christian Bibles,4076
+1,8917395011,English Standard Version,158297011,6841591,825,English Standard Version Christian Bibles,679
+1,158301011,More Translations,158297011,6979967,20207,More Bible Translations,679
+1,158302011,Amplified,158301011,6479578,1494,Amplified Christian Bibles,3525
+1,8917400011,Life Application,158301011,6897392,1920,Life Application Christian Bibles,3525
+1,158312011,New Century,158301011,6897392,626,New Century Christian Bibles,15044
+1,158299011,Other,158301011,6959199,7264,Other Christian Bibles,679
+1,8917397011,Common English,158301011,6807998,772,Common English Christian Bibles,8836
+1,158310011,New American Standard,158301011,6688445,578,New American Standard Christian Bibles,4076
+1,158317011,New Revised Standard,158301011,6595092,277,New Revised Standard Christian Bibles,9584
+1,8917402011,Reina Valera,158301011,6934985,484,Reina Valera Christian Bibles,7317
+1,158316011,New Living Translation,158301011,6895458,610,New Living Translation Christian Bibles,3706
+1,158314011,New International Reader's Version,158301011,6432072,272,New International Reader's Bibles,5208
+1,8917401011,Nueva Version International,158301011,5661224,198,Nueva Version International Christian Bibles,9944
+1,8917399011,La Biblia de las Americas,158301011,6665792,565,La Biblia de las Americas,2978
+1,158311011,New American Standard Update,158301011,5702345,453,NASU Christian Bibles,3525
+1,158303011,Basic English,158301011,5737642,572,Basic English Christian Bibles,3525
+1,158315011,New King James Version,158297011,6877946,952,New King James Christian Bibles,5918
+1,158304011,Contemporary English,158297011,6853617,588,Contemporary English Christian Bibles,5309
+1,8917419011,Christian Denominations & Sects,158296011,5564663,4478,Christian Denominations & Sects,40
+1,158362011,Orthodoxy,8917419011,6896807,3002,Christian Orthodoxy,9262
+1,158365011,Amish,8917419011,6547758,1481,Amish Christianity,507
+1,6361619011,Christian Science,8917419011,6787458,882,Christian Science,4163
+1,6361631011,Church of Jesus Christ of Latter-Day Saints,8917419011,6953804,7489,Church of Jesus Christ of Latter-Day Saints,320
+1,158371011,Jehovah's Witness,8917419011,6840008,346,Jehovah's Witness Christianity,111626
+1,158373011,Mennonite,8917419011,6905256,714,Mennonite Christianity,1927
+1,158321011,Catholicism,158296011,6968707,19897,Catholicism,2896
+1,158324011,Mariology,158321011,6914069,991,Mariology,10348
+1,8917406011,Popes & the Vatican,158321011,6960972,4586,Christian Papacy,548
+1,158325011,Roman Catholicism,158321011,6921820,2910,Roman Catholicism,1154
+1,158326011,Self-Help,158321011,6840276,1035,Catholicism Self Help,2284
+1,158415011,Theology,158296011,6974599,34861,Christian Theology,589
+1,158416011,Angelology & Demonology,158415011,6730997,2239,Angelology & Demonology,82
+1,158425011,Ethics,158415011,6913171,4339,Christian Ethics,2704
+1,158417011,Apologetics,158415011,6910584,5960,Apologetics Christian Theology,4398
+1,158431011,Soteriology,158415011,6982663,3462,Soteriology Christian Theology,589
+1,158432011,Systematic,158415011,6945206,3947,Systematic Christian Theology,3858
+1,158421011,Christology,158415011,6956565,5281,Christology,2234
+1,158424011,Eschatology,158415011,6886476,5044,Theological Eschatology,2250
+1,6361635011,History,158415011,6956565,4881,Christian History,4553
+1,6361633011,Anthropology,158415011,6945206,1598,Christian Anthropology,3569
+1,6361638011,Saints & Sainthood,158415011,6963070,2715,Christian Saints & Sainthood,16465
+1,158429011,Pneumatology,158415011,6823924,1799,Pneumatology Christian Theology,2607
+1,6361636011,Liberation,158415011,6810844,1059,Christian Liberation,6230
+1,158422011,Ecclesiology,158415011,6945206,3075,Ecclesiology Christian Theology,2390
+1,8917445011,Ministry & Evangelism,158296011,6964932,11030,Christian Ministry & Evangelism,1804
+1,8917446011,Adult Ministry,8917445011,6912778,2237,Adult Christian Ministry,1562
+1,8917447011,Children's Ministry,8917445011,6919487,2118,Children's Christian Ministry,5210
+1,158344011,Counseling & Recovery,8917445011,6981387,5399,Christian Counseling & Recovery,2368
+1,158329011,Discipleship,8917445011,6971193,8638,Christian Discipleship,2234
+1,158349011,Evangelism,8917445011,6927386,7907,Christian Evangelism,589
+1,158343011,General,8917445011,6960975,19435,Christian Ministry,1804
+1,158345011,Preaching,8917445011,6944831,5236,Christian Preaching,1595
+1,158346011,Sermons,8917445011,6952997,5876,Christian Sermons,4258
+1,158347011,Youth Ministry,8917445011,6959663,8512,Christian Youth Ministry,3509
+1,158520011,Other Eastern Religions & Sacred Texts,158280011,6905466,3493,Other Eastern Religions & Sacred Texts,8427
+1,6361644011,Feng Shui,158520011,6843308,2777,Feng Shui,1823
+1,158526011,I Ching,158520011,6805097,857,I Ching,1823
+1,158528011,Shintoism,158520011,6798330,810,Shintoism,14936
+1,8917476011,Tao Te Ching,158520011,6859928,1821,Tao Te Ching,58
+1,158530011,Taoism,158520011,6859928,3015,Taoism,939
+1,158529011,Sikhism,158520011,6916711,879,Sikhism,12915
+1,158522011,Confucianism,158520011,6949890,1274,Confucianism,1789
+1,158531011,Zoroastrianism,158520011,6790229,500,Zoroastrianism,4772
+1,158527011,Jainism,158520011,6795913,959,Jainism,10242
+1,158551011,Spirituality,158280011,6980522,65204,Spirituality,104
+1,158553011,Angels,158551011,6957114,13399,Angels,2048
+1,158556011,Devotionals,158551011,6931851,14574,Spiritual Devotionals,410
+1,8917484011,Faith,158551011,6951611,1973,Faith & Spirituality,115
+1,158558011,Gifts,158551011,6797640,1626,Spiritual Gifts,5701
+1,158559011,Inspirational,158551011,6955430,17417,Inspirational Spirituality,1164
+1,8917496011,Relationships,158559011,6923416,3378,"Dating, Relationships & Spirituality",715
+1,8917485011,Biography,158559011,6923416,5184,Spiritual Biography,2171
+1,8917486011,Conduct of Life,158559011,6903224,1492,Conduct of Life & Spirituality,115
+1,8917495011,Personal Testimonies,158559011,6943576,2159,Inspirational Personal Testimonies,115
+1,8917497011,Women's Inspirational,158559011,6943576,3414,Women's Inspirational Spirituality,716
+1,8917493011,Men's Inspirational,158559011,6925349,1419,Men's Inspirational Spirituality,82
+1,8917491011,Health,158559011,6908097,1521,Health & Spirituality,3690
+1,8917489011,Fiction,158559011,6936408,2297,Inspirational Spiritual Fiction,716
+1,8917487011,Death & Grief,158559011,6778331,1574,"Death, Grief & Spirituality",3690
+1,8917492011,Prayer,158559011,6903224,1303,Inspirational Prayer,859
+1,8917494011,Miracles,158559011,6865797,1281,Miracles & Spirituality,115
+1,8917488011,Family,158559011,6923416,2873,Family & Inspirational Spirituality,938
+1,158560011,Meditations,158551011,6929295,5743,Spiritual Meditations,1638
+1,158561011,Personal Growth,158551011,6971417,46123,Personal Growth,718
+1,8917504011,Motivational,158561011,6973543,10752,Motivational Growth & Spirituality,115
+1,8917506011,Personal Success,158561011,6930241,5986,Personal Success & Spirituality,178
+1,8917508011,Self-Help,158561011,6973543,29532,Spiritual Growth Self-Help,82
+1,8917505011,Mysticism,158561011,6861381,2380,Mysticism & Spirituality,282
+1,8917507011,Philosophy,158561011,6907233,4749,Philosophy & Spiritual Growth,794
+1,8917503011,Men's Personal Growth,158561011,6861381,3685,Men's Personal Spiritual Growth,718
+1,8917509011,Spiritual Growth,158561011,6851762,2928,Spiritual Growth,82
+1,8917500011,Family,158561011,6982958,6764,Family & Personal Growth,716
+1,8917510011,Transformational,158561011,6903224,5879,Personal Transformation & Spirituality,82
+1,8917499011,Divination,158561011,6909558,603,Divination & Personal Growth,178
+1,8917511011,Women's Personal Growth,158561011,6965602,8554,Women's Personal Spiritual Growth,115
+1,8917502011,Spiritual Healing,158561011,6942799,11673,Spiritual Healing,115
+1,158562011,Prayer,158551011,6962091,8852,Prayer,446
+1,158563011,Prayerbooks,158551011,6904001,2265,Prayerbooks,2474
+1,158564011,Spiritual Warfare,158551011,6962349,12296,Spiritual Warfare,82
+1,158565011,Women,158551011,6898889,3127,Women's Spirituality,115
+1,156116011,Computers & Technology,154606011,6973283,76651,Computers & Technology,208
+1,16977169011,Computer Science,156116011,6975435,24689,Computer Science,208
+1,16977181011,Human-Computer Interaction,16977169011,6977022,3526,Human-Computer Interaction,1779
+1,16977177011,Computer Engineering,16977169011,6959246,5154,Computer Engineering,1351
+1,16977179011,Data Modeling & Design,16977169011,6958316,3335,Data Modeling & Design,5358
+1,16977182011,Image Processing,16977169011,6964379,2030,Computer Image Processing,5853
+1,16977178011,Computer Simulation,16977169011,6956168,4146,Computer Simulation,4192
+1,16977186011,Software Engineering,16977169011,6963460,3875,Software Engineering,2155
+1,156150011,Systems Analysis & Design,16977169011,6910070,2490,Computer Systems Analysis & Design,2155
+1,16977184011,Machine Theory,16977169011,6951836,3022,Machine Theory,4274
+1,16977185011,Optical Data Processing,16977169011,6936513,586,Computer Optical Data Processing,39779
+1,16977183011,Information Theory,16977169011,6951836,3260,Computer Information Theory,5328
+1,16977170011,Artificial Intelligence,16977169011,6907163,2508,Artificial Intelligence,208
+1,16977174011,Expert Systems,16977170011,6977022,2362,Expert Systems,19185
+1,16977173011,Cybernetics,16977170011,6948824,2320,Cybernetics,208
+1,16977175011,Neural Networks,16977170011,6940340,1773,Neural Networks,11230
+1,16977171011,AI & Semantics,16977170011,6978146,18262,AI & Semantics,1779
+1,16977176011,Bioinformatics,16977169011,6970211,1654,Bioinformatics,16846
+1,16977189011,Speech & Audio Processing,16977169011,6941554,1569,Computer Speech & Audio Processing,7825
+1,156124011,Hardware,156116011,6977399,11101,Computer Hardware,2138
+1,16977220011,Tablets,156124011,6843016,1660,Tablet Guides,7892
+1,156127011,Peripherals,156124011,6891122,1740,Computer Hardware Peripherals,2138
+1,16977206011,Keyboarding,156124011,6847263,581,Keyboarding,17618
+1,16977219011,Systems Architecture,156124011,6903782,2421,Systems Architecture,16428
+1,16977209011,Microprocessors & System Design,156124011,6915977,1155,Microprocessors & System Design,2635
+1,16977216011,Mobile Devices,156124011,6948090,5059,Mobile Device Guides,4396
+1,156126011,Macs,156124011,6850174,1318,Mac Computer Hardware,12742
+1,16977207011,Mainframes & Minicomputers,156124011,6953859,1786,Mainframes & Minicomputers,2138
+1,156136011,Operating Systems,156116011,6922885,3861,Computer Operating Systems,1330
+1,16977254011,Virtualization,156136011,6905800,674,Virtualization,813
+1,8288756011,Windows,156136011,6919951,1972,Windows,15358
+1,16977250011,Linux,156136011,6880369,2157,Linux,2953
+1,16977253011,System Administration,156136011,6905800,1217,System Administration,9580
+1,156139011,Unix,156136011,6726245,1493,Unix Computer Operating Systems,2041
+1,8288757011,Windows Servers,156136011,6948090,893,Windows Servers,15328
+1,16977251011,Mainframe & Midrange,156136011,6617054,411,Mainframe & Midrange,35033
+1,156138011,Apple OS & iOS,156136011,6922885,2213,Apple OS & iOS,230
+1,156140011,Programming,156116011,6973283,19933,Computer Programming,1450
+1,16977257011,Languages & Tools,156140011,6969037,13296,Programing Languages & Tools,1450
+1,16977279011,XML,16977257011,6913164,501,XML Programming,45918
+1,156143011,Java,16977257011,6921231,3679,Java Computer Programming,2997
+1,16977270011,HTML,16977257011,6888284,1871,HTML Programming,5477
+1,6361574011,Python,16977257011,6946251,5204,Python Computer Programming,2155
+1,16977271011,JavaScript,16977257011,6941238,3891,JavaScript Programming,13
+1,6361573011,PHP,16977257011,6853996,1114,PHP Computer Programming,11943
+1,16977263011,C#,16977257011,6821096,1817,C# Programming,3143
+1,8288738011,C++,16977257011,6951025,1901,C++ Programming,5692
+1,6361570011,SQL,16977257011,6843471,1337,SQL Databases,8066
+1,6361572011,Perl,16977257011,6604537,390,Perl Computer Programming,32727
+1,16977277011,Visual Basic,16977257011,6730722,1080,Visual Basic Programming,7739
+1,8288737011,C,16977257011,6963068,1443,C Programming,1450
+1,6361576011,Ruby,16977257011,6442149,504,Ruby Computer Programming,28103
+1,16977273011,Pascal,16977257011,6853996,1111,Pascal Programming,11943
+1,16977281011,Microsoft Programming,156140011,6888284,2583,Microsoft Programming,3847
+1,16977256011,Apple Programming,156140011,6831410,960,Apple Developing & Programming,32124
+1,156144011,"Software Design, Testing & Engineering",156140011,6973283,5448,"Software Design, Testing & Engineering",2155
+1,156146011,Software Project Management,156144011,6950380,2693,Software Project Management,2155
+1,16977287011,Object Oriented Design,156144011,6973283,2243,Object Oriented Design,2155
+1,156145011,Software Development,156144011,6977022,13838,Software Development,2041
+1,16977285011,Pattern Recognition,156140011,6967132,5015,Pattern Recognition,4566
+1,16977255011,Algorithms,156140011,6966163,4729,Algorithm Programming,2319
+1,16977283011,Open Source,156140011,6833239,2224,Open Source Programming,13
+1,6361571011,Games,156140011,6951025,4743,Computer Games Programming,2155
+1,16977282011,Mobile Devices,156140011,6959577,2740,Mobile Device Programming,1330
+1,16977195011,Digital Media,156116011,6961524,5222,Digital Media,278
+1,16977199011,Video Production,16977195011,6921458,3017,Digital Video Production,13719
+1,16977196011,Audio Editing,16977195011,6899472,1131,Digital Audio Editing,9707
+1,16977221011,Interactive & Multimedia,156116011,6943548,5356,Interactive & Multimedia Technology,2655
+1,156121011,Graphic Design,156116011,6977022,20532,Computer Graphic Design,278
+1,156147011,Applications & Software,156116011,6915315,4836,Computer Software,1382
+1,16977140011,Office Software,156147011,6486131,270,Office Software,47701
+1,16977142011,Spreadsheets,16977140011,6901187,2582,Spreadsheets,1449
+1,16977143011,Suites,16977140011,6859741,1066,Desktop Application Suites,230
+1,16977144011,Word Processing,16977140011,6854406,1261,Word Processing,1779
+1,16977141011,Presentation Software,16977140011,6913937,877,Presentation Software,8937
+1,156148011,Business,156147011,6977399,19901,Business Software,1382
+1,16977137011,E-mail,156147011,6685941,469,E-mail,7574
+1,16977138011,Mathematical & Statistical,156147011,6966037,3077,Mathematical & Statistical,2319
+1,156149011,Personal Finance,156147011,6810760,796,Personal Finance Software,415
+1,16977139011,Natural Language Processing,156147011,6941554,1518,Natural Language Processing,4566
+1,16977135011,Calculators,156147011,6553922,405,Software Calculators,4135
+1,16977136011,Educational Software,156147011,6902555,2551,Educational Software,8254
+1,16977145011,Business,156116011,6757697,807,Business,2140
+1,156152011,Web Marketing,16977145011,6980877,25878,Web Marketing,1287
+1,16977147011,Documentation & Technical Writing,16977145011,6934708,1591,Documentation & Technical Writing,9559
+1,16977148011,History,16977145011,6838290,1383,Business & Management Technology History,2140
+1,16977149011,Project Management,16977145011,6922510,2260,IT Project Management,6478
+1,16977146011,Document Management,16977145011,6851282,1387,Document Management,1779
+1,156132011,Networking & Communications,156116011,6920665,7115,Computer Networking,230
+1,156134011,"Networks, Protocols & APIs",156132011,6977399,13037,"Computer Networks, Protocols & APIs",230
+1,16977238011,System Administration,156132011,6473707,974,Network System Administration,2041
+1,16977241011,Email Administration,16977238011,6783877,415,System Administration Email Administration,3189
+1,16977242011,Linux & UNIX Administration,16977238011,6726245,1031,Linux & UNIX Administration,2041
+1,16977239011,Disaster & Recovery,16977238011,6769732,302,System Administration Disaster & Recovery,813
+1,16977240011,Distributed Systems & Computing,16977238011,6902076,1273,Distributed Systems & Computing,2041
+1,16977243011,Storage & Retrieval,16977238011,6969892,3058,Data Storage & Retrieval,2873
+1,16977226011,Internet & Networking,156132011,6977022,4630,Internet & Networking,813
+1,16977223011,Cloud Computing,156132011,6476901,1019,Cloud Computing,1853
+1,16977224011,Data Transmission Systems,156132011,6887331,821,Data Transmission Systems,48911
+1,16977228011,LANs,156132011,6948445,694,LANs,813
+1,156133011,Client-Server Systems,156132011,6920665,1757,Client-Server Systems,12542
+1,16977245011,Windows Administration,156132011,6847967,790,Windows Administration,8067
+1,16232546011,Web Development,156116011,6831526,540,Web Development,14680
+1,16977311011,Application Development,16232546011,6941238,3053,Application Development,1382
+1,16977314011,User Experience & Usability,16232546011,6977022,4242,User Experience & Usability,8628
+1,156153011,Web Design,16232546011,6936156,9138,Web Site Design,987
+1,16977312011,Content Management Systems,16232546011,6936444,1469,Content Management Systems,3157
+1,16232547011,User Generated Content,16232546011,6824463,928,User Generated Content,16701
+1,16977150011,"Certification, Training & Reference",156116011,6947925,4163,"Certification, Training & Reference",813
+1,156117011,Databases,156116011,6977395,8303,Computer Databases,4613
+1,16977193011,Database Management Systems,156117011,6858998,1025,Database Management Systems,11102
+1,16977191011,Data Mining,156117011,6967132,5425,Data Mining,2873
+1,16977194011,Servers,156117011,6601486,740,Servers,7188
+1,16977192011,Data Warehousing,156117011,6845796,2210,Data Warehousing,8970
+1,16977190011,Computerized Home & Entertainment,156116011,6919336,2188,Computerized Home & Entertainment,14933
+1,16977290011,Security & Encryption,156116011,6975435,8858,Security & Encryption,2953
+1,16977291011,Encryption,16977290011,6900870,2030,Encryption,4754
+1,16977293011,Networking,16977290011,6935095,2760,Network Security,8285
+1,16977294011,Online Safety & Piracy,16977290011,6959577,3953,Online Safety & Piracy,813
+1,16977295011,Viruses & Malware,16977290011,6935095,1439,Viruses & Malware,5968
+1,16232536011,Tech Culture & Computer Literacy,156116011,6973283,11887,Tech Culture & Computer Literacy,3157
+1,16977305011,Podcasting & Webcasting,16232536011,6916811,798,Podcasting & Webcasting,5968
+1,16977299011,Electronic Publishing,16232536011,6970843,4189,Electronic Publishing,245
+1,16977297011,Computer Literacy,16232536011,6957426,4318,Computer Literacy,4396
+1,16232537011,Blogging,16232536011,6936444,4387,Blogging,3157
+1,16977309011,Virtual Reality,16232536011,6949480,2401,Virtual Reality,4286
+1,16977308011,Social Aspects,16232536011,6977022,3464,Social Aspects of the Internet,5328
+1,16232538011,Social Media,16232536011,6876489,6435,Social Media,3709
+1,16977304011,Online Services,16232536011,6966163,5495,Online Services,6983
+1,16977303011,Internet,16232536011,6958740,11947,Internet Culture,3302
+1,16977310011,Web Programming,16232536011,6927452,5986,Web Programming,13
+1,16977307011,Search Engines,16232536011,6893078,2551,Search Engines,10249
+1,8288711011,Web Services & APIs,16232536011,6936630,1516,Web Services & APIs,3494
+1,16977302011,Information Technology,16232536011,6977395,31442,Information Technology,3188
+1,16977298011,E-Commerce,16232536011,6947068,4254,E-Commerce,4345
+1,18623128011,Embedded Computer Systems,156116011,4838620,97,Embedded Computer Systems,34791
+1,158125011,Education & Teaching,154606011,6981051,186204,Education & Teaching,776
+1,157366011,Higher & Continuing Education,158125011,6977591,27863,College & University Education,1385
+1,158152011,Graduate School,157366011,6926887,1822,Graduate School,3818
+1,158153011,Business,158152011,6452926,373,Business School Guides,76
+1,158155011,Law,158152011,4849426,64,Law School Guides,6141
+1,158156011,Medical,158152011,6040526,82,Medical School Guides,32074
+1,157367011,Financial Aid,157366011,6805393,2675,College & University Financial Aid,1562
+1,158150011,College Guides,157366011,6950331,4196,College Guides,4998
+1,157365011,Adult & Continuing Education,157366011,6965140,27884,Adult & Continuing Education,3082
+1,158240011,Test Preparation,158125011,6958963,32561,Test Preparation,844
+1,158186011,TOEFL & TOEIC,158240011,6870894,2241,Education TOEFL & TOEIC,10443
+1,158180011,High School,158240011,6940164,513,High School Test Preparation,15441
+1,158182011,Prep School,158180011,4795191,88,Prep School Test Guides,24824
+1,158183011,Regents,158180011,6210887,224,Regents Test Guides,25390
+1,158184011,"SSAT, COOP",158180011,6940164,1329,SSAT & COOP Test Guides,22485
+1,158181011,GED,158180011,6837400,645,GED Test Guides,23194
+1,158159011,Careers,158240011,6948997,2065,Career Test Preparation,5318
+1,158161011,Civil Service,158159011,6920274,3112,Civil Service Test Guides,916
+1,158160011,Armed Forces,158159011,6940784,10222,Armed Forces Test Guides,22879
+1,158162011,CPA,158159011,6779920,790,CPA Test Guides,11988
+1,158163011,NTE,158159011,6646646,659,NTE Test Guides,2106
+1,158164011,Vocational Tests,158159011,6948997,4369,Vocational Test Guides,11988
+1,17744535011,USMLE (United States Medical Licensure Examination),158159011,4706391,47,USMLE (United States Medical Licensure Examination) Test Preparation & Review,178145
+1,17744536011,NCLEX,158159011,4771788,43,NCLEX Test Preparation & Review,80746
+1,158171011,Graduate & Professional,158240011,6921105,2927,Graduate & Professional Test Preparation,844
+1,158173011,Graduate Preparation,158171011,6940784,168,Graduate Preparation Test Guides,24824
+1,158179011,Teaching,158171011,5369505,140,Teaching Test Guides,844
+1,158178011,Professional,158171011,6963390,8838,Professional Test Guides,1463
+1,158174011,GRE,158171011,6939103,784,GRE Test Guides,19746
+1,158172011,GMAT,158171011,6926778,656,GMAT Test Guides,2106
+1,158177011,MCAT,158171011,6924249,823,MCAT Test Guides,1678
+1,158175011,LSAT,158171011,6921105,645,LSAT Test Guides,16639
+1,158176011,MAT,158171011,6646646,100,MAT Test Guides,17880
+1,158185011,Testing,158240011,6958963,9715,Education Testing,1678
+1,158149011,Citizenship,158240011,6831191,1218,Citizenship Education Books,916
+1,158165011,College & University,158240011,6927283,2209,College & University Test Preparation,7615
+1,158169011,College Entrance,158165011,6942501,4858,College Entrance Test Guides,7615
+1,158166011,ACT (American College Tests),158165011,6940784,929,ACT (American College Tests) Test Guides,13804
+1,158170011,SAT & PSAT,158165011,6937364,1731,SAT & PSAT Test Guides,6991
+1,158167011,Advanced Placement,158165011,6912390,2131,Advanced Placement Test Guides,15650
+1,158168011,CLEP,158165011,6903791,737,CLEP Test Guides,827
+1,17744518011,Study & Test-Taking Skills,158240011,6942501,1862,Study & Test-Taking Skills,19859
+1,6446437011,Studying & Workbooks,158125011,6974670,44022,Studying & Workbooks,1153
+1,158239011,Study Guides,6446437011,6967508,74779,Study Guides,1153
+1,158187011,Workbooks,6446437011,6936912,575,Education Workbooks,2681
+1,158148011,Book Notes,6446437011,21644998,57236,Book Notes,2354
+1,157416011,Study Skills,6446437011,6953057,11208,Study Skills,6554
+1,9154414011,Childhood Education,158125011,6961179,4451,Childhood Education & Reference,242
+1,157406011,Preschool & Kindergarten,9154414011,6980468,24972,Preschool & Kindergarten,4811
+1,157398011,Elementary School,9154414011,6963360,23327,Elementary School,5152
+1,157364011,Teacher Resources,158125011,6981051,226407,Schools & Teaching,708
+1,157370011,Computers & Technology,157364011,6983509,38772,Computers & Technology Teaching & Reference,3314
+1,157404011,Pedagogy,157364011,6980605,46948,Pedagogy,2948
+1,157408011,Reference,157364011,6952930,13529,Education Reference,2270
+1,157407011,Reading,157364011,6940485,5930,Reading Education,267
+1,157375011,Education Theory,157364011,6981051,50571,Education Theory,708
+1,6361602011,Education Policy & Reform,157375011,6977591,11177,Education Policy & Reform,13976
+1,157388011,History,157375011,6980605,17381,Education History,242
+1,157393011,Physical Education,157375011,6961060,6552,Physical Education,7943
+1,157390011,Non-Formal Education,157375011,6937827,4649,Non-Formal Education,8805
+1,157380011,Contemporary Methods,157375011,6980289,7975,Contemporary Education Methods,1922
+1,157384011,Multicultural,157380011,6960405,8458,Multicultural Education Methods,3046
+1,157381011,Bilingual,157380011,6980289,14285,Bilingual Education Methods,1922
+1,157382011,Experimental,157380011,6967554,5214,Experimental Education Methods,8805
+1,157383011,Language Experience Approach,157380011,6955980,6983,Language Experience Approach Education,8164
+1,157376011,Administration,157375011,6975903,16345,Education Administration,6012
+1,157378011,Assessment,157375011,6979964,8506,Education Assessment,12381
+1,157386011,Educational Psychology,157375011,6974297,17174,Educational Psychology,2087
+1,157394011,Research,157375011,6977591,17926,Education Theory Research,2533
+1,157387011,Finance,157375011,6981051,20220,Education Finance,2909
+1,157389011,Leadership,157375011,6971725,14585,Education Leadership,1107
+1,157379011,Classroom Management,157375011,6979964,7919,Education Classroom Management,7785
+1,157395011,School Management,157375011,6910089,904,School Management,47502
+1,157385011,Decision Making & Problem Solving,157375011,6964110,18013,Education Problem Solving,1069
+1,157397011,Statistics,157375011,6919995,2279,Education Statistics,11646
+1,157396011,School Safety & Violence,157375011,6889557,728,School Safety & Violence,11893
+1,157377011,Aims & Objectives,157375011,6968434,17742,Education Aims & Objectives,6142
+1,157391011,Organizations & Institutions,157375011,6914941,4678,Education Organizations & Institutions,5293
+1,157392011,Philosophy & Social Aspects,157375011,6975903,20378,Education Philosophy & Social Aspects,7353
+1,157405011,Policy,157364011,6977591,12115,Education Policy,11893
+1,157409011,Special Education,157364011,6964782,6436,Special Education,11012
+1,157410011,"Behavioral, Emotional & Social Disabilities",157409011,6960405,2382,"Behavioral, Emotional & Social Disabilities",8807
+1,157411011,Communicative Disorders,157409011,6910112,1470,Communicative Disorders in Special Ed.,4201
+1,157413011,Learning Disabilities,157409011,6942942,2893,Special Education eBooks on Learning Disabilities,10723
+1,157414011,Developmental & Intellectual Disabilities,157409011,6937827,1039,Special Education eBooks on Developmental & Intellectual Disabilities,8468
+1,157415011,Physical Disabilities,157409011,6942942,1001,Special Education eBooks on Physical Disabilities,26688
+1,157369011,Student Life,157364011,6975903,7254,College & University Student Life,8638
+1,157659011,Professional Development,157364011,6957124,26117,Educational Professional Development,158
+1,157403011,Parent Participation,157364011,6963360,9413,Parent Participation in Education,6411
+1,157399011,Funding,157364011,6981051,20128,Education Funding,2909
+1,157401011,High School,157364011,6955980,7723,High School,7841
+1,157374011,Curricula,157364011,6961568,9136,Curricula,5156
+1,11650861011,Teacher & Student Mentoring,157364011,6916113,972,Teacher & Student Mentoring,8937
+1,157371011,Counseling,157364011,6949535,8964,Educational Counseling,1252
+1,157402011,Homeschooling,157364011,6936804,16459,Homeschooling,3046
+1,156563011,Self-Help,154606011,6978746,210524,Self-Help,212
+1,10668115011,Eating Disorders & Body Image,156563011,6966120,5537,Self-Help for Eating Disorders & Body Image Issues,1223
+1,156572011,Self-Esteem,156563011,6983068,45112,Self-Esteem Self-Help,157
+1,156573011,Spiritual,156563011,6974287,42477,Spiritual Self-Help,82
+1,156570011,Motivational,156563011,6984854,105716,Motivational Self-Help,115
+1,156566011,Happiness,156563011,6967056,38417,Happiness,186
+1,156574011,Stress Management,156563011,6951680,17036,Stress Management,178
+1,156564011,Creativity,156563011,6972911,18146,Creativity Self-Help,858
+1,156568011,Journal Writing,156563011,6672709,1276,Journal Writing,1779
+1,156569011,Memory Improvement,156563011,6904451,6136,Memory Improvement,1163
+1,11650899011,Journaling,156563011,5934262,2157,Journaling,1097
+1,156567011,Inner Child,156563011,6846099,2109,Inner Child,1097
+1,156571011,Personal Transformation,156563011,6972376,53950,Personal Transformation,130
+1,156496011,Abuse,156563011,6970531,10665,Self-Help for Abuse,1665
+1,156430011,"Health, Fitness & Dieting",154606011,6981019,286468,"Health, Fitness & Dieting",182
+1,156451011,Diets & Weight Loss,156430011,6967025,23283,Diets & Weight Loss,182
+1,156458011,Food Counters,156451011,6918308,11012,Weight Loss Food Counters,182
+1,156459011,Special Conditions,156451011,6849629,1999,Special Condition Diets,4152
+1,11717375011,Low Cholesterol,156459011,6854253,4002,Low Cholesterol,1607
+1,156452011,Diets,156451011,6967025,47890,Diets,182
+1,156456011,Weight Loss,156452011,6982298,57488,Weight Loss Diets,412
+1,156457011,Weight Maintenance,156452011,6982298,57309,Weight Maintenance Diets,412
+1,156454011,Healthy,156452011,6591016,1818,Healthy Diets,1034
+1,11717366011,Gluten Free,156452011,6840055,1756,Gluten Free Diets,915
+1,15280093011,Ketogenic,156452011,6907357,8256,Ketogenic Diet,534
+1,11717372011,Vegetarian,156452011,6923369,2948,Vegetarian Diets,235
+1,11717371011,Vegan,156452011,6979486,1944,Vegan Diets,1479
+1,11717369011,Paleo,156452011,6910672,3819,Paleo Diets,534
+1,11717368011,Low Carb,156452011,6909876,2243,Low Carb Diets,534
+1,11717365011,Blood Type Diets,156452011,6840879,637,Blood Type Diets,382
+1,11717373011,Weight Watchers,156452011,6760839,1373,Weight Watchers,1034
+1,156455011,Low Fat,156452011,6966156,20143,Low Fat Diets,646
+1,11717364011,Atkins Diet,156452011,6864271,1021,Atkins Diet,1034
+1,156431011,Alternative Medicine,156430011,6981019,27381,Alternative Medicine,579
+1,156439011,Massage,156431011,6928923,3817,Massage,1771
+1,156432011,Acupuncture & Acupressure,156431011,6936647,3501,Acupuncture & Acupressure,1003
+1,156437011,Holistic,156431011,6950781,3056,Alternative Holistic Medicine,1346
+1,11717358011,Alternative Therapies,156431011,6981019,26305,Alternative Therapies,361
+1,156440011,Meditation,156431011,6951680,15641,Meditation,351
+1,156438011,Homeopathy,156431011,6981019,3492,Homeopathy,1924
+1,156436011,Herbal Remedies,156431011,6960901,11716,Herbal Remedies,1179
+1,11717359011,Energy Healing,156431011,6958886,8583,Energy Healing,2081
+1,156433011,Aromatherapy,156431011,6918673,5212,Aromatherapy,1346
+1,156442011,Vitamins,156431011,6972587,3963,Alternative Health & Vitamins,898
+1,11717360011,Hypnotherapy,156431011,6781859,666,Hypnotherapy,339
+1,156435011,Healing,156431011,6980294,24677,Alternative Medicine Healing,836
+1,156441011,Naturopathy,156431011,6960901,5426,Naturopathy,1111
+1,156481011,Exercise & Fitness,156430011,6968179,24449,Exercise & Fitness,351
+1,156485011,Yoga,156481011,6968801,16682,Yoga,351
+1,11717424011,Quick Workouts,156481011,6821157,1461,Quick Workouts,6042
+1,11717429011,Weight Training,156481011,6942553,7819,Weight Training,6042
+1,11717421011,Injuries & Rehabilitation,156481011,6957855,4074,Injuries & Rehabilitation,1480
+1,11717422011,Pilates,156481011,6794041,1288,Pilates,1480
+1,11717428011,Walking,156481011,6733714,851,Walking for Exercise,4093
+1,156482011,Aerobics,156481011,6956055,3030,Aerobics,779
+1,11717417011,Ab Workouts,156481011,6949804,1182,Ab Workouts,1480
+1,11717418011,For Children,156481011,6950652,1858,Exercise For Children,1480
+1,11717423011,Pregnancy,156481011,6502360,633,Pregnancy,1480
+1,156443011,"Beauty, Grooming, & Style",156430011,6976180,22767,"Beauty, Grooming, & Style",956
+1,156444011,Cosmetics,156443011,6928471,1393,Cosmetics,15549
+1,156447011,Skin Care,156443011,6928471,1563,Beauty & Fashion Skin Care,3646
+1,156446011,Hair,156443011,6881981,984,Hair Beauty & Fashion,6815
+1,156555011,Reference,156430011,6939991,5197,Health Reference,2563
+1,156562011,Safety & First Aid,156430011,6980294,5466,Safety & First Aid,416
+1,156497011,Nutrition,156430011,6946228,27661,Nutrition,310
+1,156499011,Macrobiotics,156497011,6839340,2688,Macrobiotics,1034
+1,156500011,Vitamins & Supplements,156497011,6972587,4195,Nutrition of Vitamins & Supplements,898
+1,11717434011,Antioxidants & Phytochemicals,156497011,6839221,781,Antioxidants & Phytochemicals,1448
+1,11717441011,Food Allergies,156497011,6818693,532,Food Allergies,2563
+1,156548011,Addiction & Recovery,156430011,6161960,2930,Addiction & Recovery,5794
+1,11717487011,Gambling,156548011,6947359,893,Gambling Addiction,19795
+1,156550011,Alcoholism,156548011,6883531,4337,Alcoholism,7543
+1,156554011,Twelve-Step Programs,156548011,6791449,3499,Twelve-Step Programs,6219
+1,156549011,Adult Children of Alcoholics,156548011,6916441,2174,Adult Children of Alcoholics,1097
+1,11717491011,Tobacco,156548011,6968125,2128,Tobacco Addiction & Recovery,16999
+1,11717490011,Sexual Addiction,156548011,6955265,2400,Sexual Addiction & Recovery,3816
+1,11717489011,Obsessive Compulsive Disorder (OCD),156548011,6867913,2178,Obsessive Compulsive Disorder (OCD),2275
+1,11717488011,Hoarding,156548011,5841686,636,Hoarding,5884
+1,156551011,Drug Dependency,156548011,6923092,3198,Drug Dependency & Recovery,3176
+1,156448011,Death & Grief,156430011,6981387,20750,Death & Grief,126
+1,156575011,Sex,156430011,6984192,28848,Sexuality,1249
+1,11717492011,Sports Health & Safety,156430011,6796144,2949,Sports Health & Safety,6095
+1,11717493011,Teen Health,156430011,6687225,1586,Teen Health,4226
+1,156512011,Counseling & Psychology,156430011,6980777,63187,Counseling & Psychology,814
+1,156544011,Social Psychology & Interactions,156512011,6959078,15955,Social Psychology & Interactions,282
+1,156487011,Mental Health,156512011,6966212,13639,Mental Health,210
+1,156491011,Dreams,156487011,6955445,6587,Dreams,452
+1,156532011,Mental Illness,156487011,6964114,32409,Mental Illness,22
+1,156493011,Emotions,156487011,6966212,17200,Emotions & Mental Health,186
+1,156489011,Compulsive Behavior,156487011,6944082,2797,Compulsive Behavior,2275
+1,156490011,Depression,156487011,6921990,9302,Depression,329
+1,11717431011,Bipolar Disorder,156487011,6934481,2024,Counseling & Psychology eBooks on Bipolar Disorder,329
+1,11717430011,Behaviour,156487011,6944082,3506,Behaviour,329
+1,156488011,Codependency,156487011,6918667,5264,Codependency,1097
+1,156495011,Mood Disorders,156487011,6950781,6962,Mood Disorders,621
+1,156492011,Eating Disorders,156487011,6902043,1950,Eating Disorders,329
+1,18623136011,Memory Disorders,156487011,5226363,324,Memory Disorders,329
+1,156535011,Pathologies,156512011,6964114,54370,Psychological Pathologies,22
+1,11717478011,Attention-Deficit Disorder,156535011,6921169,1445,Attention-Deficit Disorder,1555
+1,11717477011,Anxieties & Phobias,156535011,6901589,3096,Psychology eBooks on Anxieties & Phobias,1822
+1,11717485011,Schizophrenia,156535011,6806007,1027,Schizophrenia,3035
+1,11717482011,Dissociative Identity,156535011,6895469,641,Dissociative Identity,3974
+1,11717484011,Personality Disorders,156535011,6843806,2432,Personality Disorders,3620
+1,11717479011,Autism,156535011,6909407,2848,Autism,939
+1,156537011,Physiological Aspects,156512011,6961006,2610,Physiological Aspects in Psychology,452
+1,156533011,Neuropsychology,156512011,6958719,7310,Neuropsychology,833
+1,156525011,Developmental Psychology,156512011,6927116,5381,Developmental Psychology,1097
+1,11717463011,Lifespan Development,156525011,6935627,2611,Lifespan Development,452
+1,11717462011,Adulthood & Aging,156525011,6964567,2572,Adulthood & Aging,662
+1,156536011,Personality,156512011,6950977,14274,Psychology of Personalities,1212
+1,156513011,Adolescent Psychology,156512011,6980468,7038,Adolescent Psychology,3341
+1,156515011,Child Development & Psychology,156512011,4862723,524,Child Development & Psychology,20873
+1,156517011,Psychology,156515011,6980468,5189,Child Psychology,3341
+1,156516011,Development,156515011,6980468,7679,Child Development,3875
+1,156547011,Testing & Measurement,156512011,6961006,2517,Psychology Testing & Measurement,13389
+1,156526011,Education & Training,156512011,6972098,13539,Psychology Education & Training,689
+1,11717468011,Movements,156512011,6946386,1701,Psychology Movements,16690
+1,11717474011,Jungian,11717468011,6738296,1944,Jungian Psychology,689
+1,11717475011,Transpersonal,11717468011,6944082,1237,Transpersonal Psychology,689
+1,11717470011,Existential,11717468011,6794098,437,Existential Psychology,689
+1,11717472011,Gestalt,11717468011,6928165,711,Gestalt Psychology,1766
+1,11717473011,Humanistic,11717468011,6591817,1265,Humanistic Psychology,1652
+1,11717469011,Cognitive Behavioral Therapy,11717468011,6946386,2151,Cognitive Behavioral Therapy,329
+1,156519011,Counseling,156512011,6961229,8108,Counseling,2889
+1,156522011,Couples & Family Therapy,156519011,6948986,4489,Couples & Family Therapy,2862
+1,156521011,Children,156519011,5350055,312,Counseling Children,1097
+1,156520011,Adolescent,156519011,4973317,400,Adolescent Counseling,3974
+1,156514011,Applied Psychology,156512011,6980468,18047,Applied Psychology,1457
+1,156530011,History,156512011,6914693,2770,History of Psychology,2486
+1,11717461011,Cognitive Neuroscience & Cognitive Neuropsychology,156512011,6904226,4909,Cognitive Neuroscience & Cognitive Neuropsychology,811
+1,156528011,Forensic Psychology,156512011,6920884,3358,Forensic Psychology,2920
+1,156543011,Human Sexuality,156512011,6964435,12604,Counseling & Psychology eBooks on Human Sexuality,1627
+1,11717466011,Group Therapy,156512011,6937827,1397,Group Therapy,689
+1,156540011,"Psychotherapy, TA & NLP",156512011,6976283,12138,TA & NLP Psychotherapy,64
+1,156538011,Psychoanalysis,156512011,6957152,9267,Psychoanalysis,2354
+1,156518011,Clinical Psychology,156512011,6952840,11705,Clinical Psychology,2198
+1,156534011,Occupational & Organizational,156512011,6965726,5888,Occupational & Organizational Psychology,3346
+1,156531011,Hypnosis,156512011,6963625,3848,Hypnosis,1327
+1,156524011,Creativity & Genius,156512011,6953336,5787,Psychology of Creativity & Genius,178
+1,11717465011,Grief & Loss,156512011,6965958,3181,Grief & Loss,210
+1,156541011,Reference,156512011,6934705,4454,Psychology Reference,4242
+1,156542011,Research,156512011,6964114,4691,Psychology Research,941
+1,156539011,Psychopharmacology,156512011,6975336,1384,Psychopharmacology,2970
+1,156546011,Suicide,156512011,6914439,2416,Psychology eBooks on Suicide,232
+1,11717464011,Ethnopsychology,156512011,6839368,1018,Ethnopsychology,1652
+1,156545011,Statistics,156512011,6849581,859,Psychology Statistics,14427
+1,11717486011,Practice Management,156512011,6897691,1544,Practice Management,4401
+1,11717467011,Medicine & Psychology,156512011,6804256,696,Medicine & Psychology,2681
+1,156527011,Experimental Psychology,156512011,6938656,2888,Experimental Psychology,2275
+1,14530442011,Evolutionary Psychology,156512011,6942198,306,Evolutionary Psychology,20868
+1,17744519011,Essays,156512011,5839731,250,Counselling & Psychology Essays,2198
+1,156462011,Diseases & Physical Ailments,156430011,6970942,18640,Diseases & Physical Ailments,288
+1,156464011,AIDS,156462011,6844021,1281,AIDS,1493
+1,156463011,Abdominal,156462011,6893519,4874,Abdominal Disorders & Diseases,730
+1,156465011,Allergies,156462011,6919377,4309,Allergies,779
+1,11717376011,Alzheimer's Disease,156462011,6958136,12109,Alzheimer's Disease,494
+1,156466011,Cancer,156462011,6970942,8355,Cancer,1454
+1,11717381011,Breast Cancer,156466011,6964664,1593,Breast Cancer,20601
+1,11717382011,Colorectal Cancer,156466011,6862205,483,Colorectal Cancer,6396
+1,11717384011,Leukemia,156466011,6833818,316,Leukemia,6396
+1,11717385011,Lung Cancer,156466011,6755839,440,Lung Cancer,6396
+1,11717387011,Prostate Disease,156466011,6738647,415,Prostate Disease,6396
+1,11717390011,Chronic Fatigue Syndrome,156462011,6928471,3076,Chronic Fatigue Syndrome,7968
