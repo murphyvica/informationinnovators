@@ -3,8 +3,6 @@ import os
 
 import requests
 
-from init_logger import logger
-
 KEEPA_TIME_OFFSET = 21564000
 
 
@@ -14,7 +12,6 @@ def get_product(asin: str) -> dict:
     :param asin: Product ASIN to search for
     :return: Information about the product
     """
-    logger.info('Searching for ASIN %s', asin)
     req_params = {
         'key': os.getenv('KEEPA_API_KEY'),
         'domain': 1,
@@ -24,7 +21,6 @@ def get_product(asin: str) -> dict:
     response = requests.post('https://api.keepa.com/product', params=req_params)
 
     if not response.ok:
-        logger.error('Unable to successfully complete response: %s', response.text)
         return None
 
     product = response.json()['products'][0]

@@ -10,8 +10,6 @@ import time
 
 import requests
 
-from init_logger import logger
-
 if len(sys.argv) < 2:
     sys.exit('Please provide an output file name')
 
@@ -24,7 +22,6 @@ def get_category(category_id: int, writer: csv.DictWriter) -> None:
     :param category_id: The ID of the category to traverse
     :param writer: Reference to a csv writer that will contain all output
     """
-    logger.info('Retrieving category %d', category_id)
 
     query_parameters = {'key': os.environ['KEEPA_API_KEY'], 'domain': 1, 'category': category_id}
     response = requests.post('https://api.keepa.com/category', params=query_parameters, timeout=10)
@@ -33,12 +30,8 @@ def get_category(category_id: int, writer: csv.DictWriter) -> None:
 
     if response.status_code == 429:
         refill_milli = data['refillIn']
-        logger.warning('Token balance too low to complete operation,' +
-                       ' waiting %d seconds ' + 'for refill', refill_milli / 1000)
         time.sleep(refill_milli / 1000)
-        logger.info('Refilled %s tokens', data['refillRate'])
 
-        logger.info('Retrieving category %d', category_id)
         response = requests.post('https://api.keepa.com/category',
                                  params=query_parameters, timeout=10)
         data = response.json()
