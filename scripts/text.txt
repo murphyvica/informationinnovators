@@ -1,0 +1,86 @@
+import getpass
+import numpy as np
+import pandas as pd
+import psycopg2
+import tensorflow as tf
+import sshtunnel
+
+
+ssh_host = input('SSH Host: ')
+ssh_user = input('SSH Username: ')
+ssh_pass = getpass.getpass('SSH Password: ')
+db_host = input('DB Host: ')
+
+with sshtunnel.open_tunnel((ssh_host, 22), ssh_username=ssh_user, ssh_password=ssh_pass,
+                           remote_bind_address=(db_host, 5432)) as tunnel:
+
+    db_user = input('PGSql Username: ')
+    db_pass = getpass.getpass('PGSql Password: ')
+    conn = psycopg2.connect(database='capstone', user=db_user, password=db_pass,
+                            port=tunnel.local_bind_port)
+
+    query = """
+    SELECT dp.*, fp.price, dd.day, dd.month, dd.year
+    FROM fact_price fp
+    JOIN dim_product dp ON fp.product_id = dp.product_id
+    JOIN dim_date dd ON fp.date_id = dd.date_id
+    """    
+
+    cursor = conn.cursor()
+    cursor.execute(query)
+    df = pd.read_sql_query(query, conn)
+
+# Convert the day, month, and year columns to a datetime object
+df['date'] = pd.to_datetime(df[['day', 'month', 'year']])
+
+# Sort the dataframe by date in ascending order
+df = df.sort_values('date')
+
+# Create a new column with the number of days since the earliest date in the dataset
+df['days_since_start'] = (df['date'] - df['date'].min()).dt.days
+
+# Drop the day, month, year, and date columns
+df = df.drop(columns=['day', 'month', 'year', 'date'])
+
+# Split the dataframe into training and test sets
+split_idx = int(len(df) * 0.8)
+train_df, test_df = tf.split(df, [split_idx, len(df) - split_idx])
+
+# Define the features and target column names
+feature_cols = ['product_id', 'days_since_start']
+target_col = 'price'
+
+# Normalize the feature columns
+mean = train_df[feature_cols].mean()
+std = train_df[feature_cols].std()
+train_df[feature_cols] = (train_df[feature_cols] - mean) / std
+test_df[feature_cols] = (test_df[feature_cols] - mean) / std
+
+# Define the neural network architecture
+model = tf.keras.Sequential([
+    tf.keras.layers.Dense(32, activation='relu', input_shape=(2,)),
+    tf.keras.layers.Dense(16, activation='relu'),
+    tf.keras.layers.Dense(1)
+])
+
+# Compile the model
+model.compile(optimizer='adam', loss='mean_squared_error')
+
+# Train the model
+history = model.fit(
+    train_df[feature_cols],
+    train_df[target_col],
+    validation_data=(test_df[feature_cols], test_df[target_col]),
+    epochs=50
+)
+
+# Use the trained model to predict prices for the next 30 days
+last_date = df['date'].max()
+days_since_last_date = pd.Series(range(1, 31))
+future_dates = pd.to_datetime(last_date) + pd.to_timedelta(days_since_last_date, unit='d')
+future_days_since_start = pd.Series(range(df['days_since_start'].max()+1, df['days_since_start'].max()+31))
+future_df = pd.DataFrame({
+    'product_id': df['product_id'].unique()[0],
+    'days_since_start': future_days_since_start,
+    'date': future_dates
+})
