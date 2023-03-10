@@ -1,0 +1,6 @@
+fuzzywuzzy
+numpy
+pandas
+psycopg2
+requests
+sshtunnel
