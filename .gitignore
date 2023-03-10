@@ -1,4 +1,5 @@
 venv
 *.log
 .vscode
-*.csv
+**/*.csv
+__pycache__
