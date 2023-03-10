@@ -12,4 +12,4 @@ and their smaller number of tables are more performant for joins and grabbing
 large amounts of data.
 
 ## Database ERD
-<iframe allowfullscreen frameborder="0" style="width:480px; height:360px" src="https://lucid.app/documents/embedded/57377a86-eb6c-4795-ada7-6ac04bd8e3bc" id="r7cERqBWClfu"></iframe>
+![Database ERD](db_erd.png)
