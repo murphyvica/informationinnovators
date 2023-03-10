@@ -8,7 +8,7 @@ Innovators, consists of the following:
 - Grackie Jiang
 - Franchezca Layog
 - Victoria Murphy
-- Samir Oudjani
+- Samir Ouijdani
 - Harmeet Singh
 
 For this current iteration of the project, the only supported retailer is
