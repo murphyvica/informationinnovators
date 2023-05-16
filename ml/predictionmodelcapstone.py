@@ -3,14 +3,21 @@ import numpy as np
 import pandas as pd
 import psycopg2
 import tensorflow as tf
+import pickle
 import sshtunnel
-from sklearn.metrics import mean_squared_error
-import scipy.stats as stats
+from sklearn.preprocessing import LabelEncoder
+from keras.callbacks import ModelCheckpoint
+from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
-from keras.layers import Dense
+from keras.layers import Dense, LSTM
 
+def encode_categorical_features(df, cols):
+    for col in cols:
+        le = LabelEncoder()
+        not_null = df[col][df[col].notnull()]
+        df[col] = pd.Series(le.fit_transform(not_null), index=not_null.index)
 
-
+    return df
 
 ssh_host = input('SSH Host: ')
 ssh_user = input('SSH Username: ')
@@ -30,105 +37,141 @@ with sshtunnel.open_tunnel((ssh_host, 22), ssh_username=ssh_user, ssh_password=s
     FROM fact_price fp
     JOIN dim_product dp ON fp.product_id = dp.product_id
     JOIN dim_date dd ON fp.date_id = dd.date_id
-    """    
+    WHERE dp.product_id IN (
+    SELECT DISTINCT product_id
+    FROM dim_product
+)
+"""
 
     cursor = conn.cursor()
     cursor.execute(query)
     data = pd.read_sql_query(query, conn)
-    data['price'] = data['price'].replace({'\$': '', ',': ''}, regex=True)
+    data['price'] = data['price'].str.replace('[\$,]', '', regex=True).astype(float)
 
-# Create a list of dictionaries to hold the features and labels for each ASIN
+scaler = MinMaxScaler()
+data['price'] = scaler.fit_transform(data['price'].values.reshape(-1, 1))
+
+# Encode categorical features
+categorical_cols = ['manufacturer', 'brand', 'category', 'model', 'color', 'size', 'audience_rating']
+data = encode_categorical_features(data, categorical_cols)
+
+# Convert boolean columns to integer type
+boolean_cols = ['is_eligible_for_super_saving_shipping', 'is_sns']
+for col in boolean_cols:
+    data[col] = data[col].astype(int)
+
+# Combine 'day', 'month', 'year' into a single datetime column and sort by this column
+data['date'] = pd.to_datetime(data[['year', 'month', 'day']])
+data.sort_values(by='date', inplace=True, ascending=True)
+data.drop(['year', 'month', 'day'], axis=1, inplace=True)
+# Fill in missing values
+data.fillna(-1, inplace=True)
+
+# Convert float columns to int
+for col in ['brand', 'model', 'size', 'audience_rating']:
+    data[col] = data[col].astype(int)
+
+# Check for sufficient data for each ASIN
+asin_counts = data['asin'].value_counts()
+sufficient_data_asins = asin_counts[asin_counts >= 90].index
+
+# Only use ASINs with sufficient data
+data = data[data['asin'].isin(sufficient_data_asins)]
+
+print(f"Missing data:\n{data.isnull().sum()}")
+
+# Check that all inputs are numeric
+print(f"Data types:\n{data.dtypes}")
+
+# Check for potential data scaling issues
+print(f"Min price: {data['price'].min()}, Max price: {data['price'].max()}")
+
+# Check for sufficient data for each ASIN
+print(f"Number of days of data for each ASIN:\n{data['asin'].value_counts()}")
+
+# Create features and labels
 feature_dicts = []
-results = []
 label_dicts = []
 
-# Iterate over each ASIN and create feature vectors consisting of the first 60 days of prices and add manufacturer and brand
+# Select relevant columns
+columns = ['price', 'manufacturer', 'brand', 'category', 'model', 'color', 'size', 'audience_rating', 'is_eligible_for_super_saving_shipping', 'is_sns']
+with open('unique_asins.pkl', 'wb') as f:
+    pickle.dump(data['asin'].unique(), f)
+
+# Save scaler
+with open('scaler.pkl', 'wb') as f:
+    pickle.dump(scaler, f)
+
+# Save columns
+with open('columns.pkl', 'wb') as f:
+    pickle.dump(columns, f)
+
+# Save data to csv
+data.to_csv('data.csv', index=False)
+
 for asin in data['asin'].unique():
-    asin_data = data[data['asin']==asin]
-    manufacturer = asin_data['manufacturer'].iloc[0]
-    brand = asin_data['brand'].iloc[0]
-    asin_prices = asin_data['price'].tolist()
+    asin_data = data[data['asin'] == asin]
+    asin_values = asin_data[columns].values.tolist()
+    
+    for i in range(len(asin_values) - 90):
+        feature_dicts.append({"features": asin_values[i:i + 60]})
+        label_dicts.append({"labels": [x[0] for x in asin_values[i + 60:i + 90]]})  # Only take 'price' for labels
 
-    for i in range(len(asin_prices) - 90):
-        feature_dicts.append({"features": asin_prices[i:i+60] + [manufacturer, brand]})
-        label_dicts.append({"labels": asin_prices[i+60:i+90]})
-
-# Convert the features and labels to TensorFlow tensors
 features = [d["features"] for d in feature_dicts]
 labels = [d["labels"] for d in label_dicts]
 
-df_features = pd.DataFrame(features, columns=[f"price_{i}" for i in range(60)] + ["manufacturer", "brand"])
-df_labels = pd.DataFrame(labels, columns=[f"price_{i}" for i in range(30)])
+# Convert to TensorFlow tensors
+features = tf.convert_to_tensor(features, dtype=tf.float32)
+labels = tf.convert_to_tensor(labels, dtype=tf.float32)
 
-df_features = pd.get_dummies(df_features, columns=["manufacturer", "brand"])
-df_features = df_features.astype(float)
-
-features = tf.convert_to_tensor(df_features.values, dtype=tf.float32)
-labels = tf.convert_to_tensor(df_labels.values, dtype=tf.float32)
+# Reshape the input data to be compatible with LSTM layers
+features = tf.reshape(features, (-1, 60, len(columns)))
 
 # Define the model architecture
-model = Sequential([])
-model.add(Dense(128, input_shape=(143,), activation='relu'))
-model.add(Dense(64, activation='relu'))
-model.add(Dense(32, activation='relu'))
-model.add(Dense(1, activation='linear'))
+model = Sequential()
+model.add(LSTM(64, input_shape=(60, len(columns)), activation='tanh', return_sequences=True, dropout=0.5))
+model.add(LSTM(32, activation='tanh', dropout=0.5))
+model.add(Dense(30))  # Predict the next 30 days prices
 
 # Compile the model
-model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.01), loss="mse")
+model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001), loss="mse")
 
-print(features.shape)
+filepath = "best_model1.h5"
+
+# Create a ModelCheckpoint callback
+checkpoint = ModelCheckpoint(filepath, monitor='val_loss', verbose=1,
+                             save_best_only=True, mode='min')
+
 # Train the model
-model.fit(features, labels, epochs=1, batch_size=32)
+model.fit(features, labels, epochs=1, batch_size=32, callbacks=[checkpoint], validation_split=0.2)
 
-# Create a list to hold the predictions for each ASIN
+# Make predictions with Monte Carlo Dropout
+n_simulations = 100
 predictions = []
+unique_asins = data['asin'].unique()  # Get only the first 10 unique ASINs
 
-# Iterate over each ASIN and make predictions
-for asin in data['asin'].unique():
-    asin_data = data[data['asin']==asin]
-    manufacturer = asin_data['manufacturer'].iloc[0]
-    brand = asin_data['brand'].iloc[0]
-    asin_prices = asin_data['price'].tolist()
-    actual_prices = asin_data['price'].tolist()
-    actual_prices = np.array(actual_prices, dtype= float)
+for asin in unique_asins:
+    asin_data = data[data['asin'] == asin]
+    asin_values = asin_data[columns].values.tolist()
 
-
+    feature_vector = asin_values[-60:] if len(asin_values) >= 60 else [[0]*len(columns)] * (60 - len(asin_values)) + asin_values
+    feature_vector = tf.convert_to_tensor([feature_vector], dtype=tf.float32)
+    feature_vector = tf.reshape(feature_vector, (-1, 60, len(columns)))
     
-    # Create a feature vector for the ASIN
-    feature_vector = asin_prices[-60:] + [manufacturer, brand]
-    feature_vector = pd.get_dummies(pd.DataFrame([feature_vector], columns=[f"price_{i}" for i in range(60)] + ["manufacturer", "brand"]))
-    feature_vector = tf.convert_to_tensor(feature_vector.values, dtype=tf.float32)
+    asin_predictions = []
+    for _ in range(n_simulations):
+        prediction = model.predict(feature_vector)[0]
+        prediction = scaler.inverse_transform(prediction.reshape(-1, 1))
+        asin_predictions.append(prediction)
+    
+    predictions.append(asin_predictions)
 
-    # Make a prediction for the next 30 days using the trained model
-    prediction = model.predict(feature_vector)[0]
-    predictions.append(prediction)
-
-    mse = mean_squared_error(actual_prices[-30:].astype(float), prediction.astype(float))
-    accuracy = (mse / np.var(actual_prices[-30:]))
-    std_err = stats.sem(actual_prices[-30:])
-    conf_int = stats.t.interval(0.90, len(actual_prices[-30:])-1, loc=np.mean(actual_prices[-30:]), scale=std_err)
-    results.append({
-        "asin": asin,
-        "actual_prices": actual_prices[-30:],
-        "predicted_prices": prediction,
-        "accuracy": accuracy,
-        "confidence_interval": conf_int
-    })
-
-# Print the results for each ASIN
-for r in results:
-    print(f"ASIN: {r['asin']}")
-    print(f"Actual Prices: {r['actual_prices']}")
-    print(f"Predicted Prices: {r['predicted_prices']}")
-    print(f"Accuracy: {r['accuracy']}")
-    print(f"Confidence Interval: {r['confidence_interval']}")
-
-# Print the predictions for each ASIN
-for asin in data['asin'].unique():
-    asin_data = data[data['asin']==asin]
-    asin_features = asin_data['price'].tolist()[:60] + [asin_data['manufacturer'].iloc[0], asin_data['brand'].iloc[0]]
-    asin_features = pd.get_dummies(pd.DataFrame(asin_features).T, columns=[60, 61])
-    asin_features = asin_features.astype(float)
-    asin_prediction = model.predict(asin_features)
+    # Calculate and print the 90% prediction interval for each ASIN
+    lower_bound = np.percentile(asin_predictions, 5)
+    upper_bound = np.percentile(asin_predictions, 95)
     print(f"ASIN: {asin}")
-    print(f"Next 30 day prices: {asin_prediction}")
+    print(f"90% Prediction Interval: ({lower_bound}, {upper_bound})")
+    print(f"Most recent price of ASIN {asin}: {scaler.inverse_transform(asin_data['price'].iloc[-1].reshape(-1, 1))}")
+
+
+
