@@ -40,6 +40,7 @@ with sshtunnel.open_tunnel((ssh_host, 22), ssh_username=ssh_user, ssh_password=s
     WHERE dp.product_id IN (
     SELECT DISTINCT product_id
     FROM dim_product
+    LIMIT 100
 )
 """
 
@@ -48,8 +49,7 @@ with sshtunnel.open_tunnel((ssh_host, 22), ssh_username=ssh_user, ssh_password=s
     data = pd.read_sql_query(query, conn)
     data['price'] = data['price'].str.replace('[\$,]', '', regex=True).astype(float)
 
-scaler = MinMaxScaler()
-data['price'] = scaler.fit_transform(data['price'].values.reshape(-1, 1))
+
 
 # Encode categorical features
 categorical_cols = ['manufacturer', 'brand', 'category', 'model', 'color', 'size', 'audience_rating']
@@ -98,9 +98,6 @@ columns = ['price', 'manufacturer', 'brand', 'category', 'model', 'color', 'size
 with open('unique_asins.pkl', 'wb') as f:
     pickle.dump(data['asin'].unique(), f)
 
-# Save scaler
-with open('scaler.pkl', 'wb') as f:
-    pickle.dump(scaler, f)
 
 # Save columns
 with open('columns.pkl', 'wb') as f:
@@ -143,7 +140,7 @@ checkpoint = ModelCheckpoint(filepath, monitor='val_loss', verbose=1,
                              save_best_only=True, mode='min')
 
 # Train the model
-model.fit(features, labels, epochs=1, batch_size=32, callbacks=[checkpoint], validation_split=0.2)
+model.fit(features, labels, epochs=97, batch_size=32, callbacks=[checkpoint], validation_split=0.2)
 
 # Make predictions with Monte Carlo Dropout
 n_simulations = 100
@@ -161,7 +158,6 @@ for asin in unique_asins:
     asin_predictions = []
     for _ in range(n_simulations):
         prediction = model.predict(feature_vector)[0]
-        prediction = scaler.inverse_transform(prediction.reshape(-1, 1))
         asin_predictions.append(prediction)
     
     predictions.append(asin_predictions)
@@ -171,7 +167,6 @@ for asin in unique_asins:
     upper_bound = np.percentile(asin_predictions, 95)
     print(f"ASIN: {asin}")
     print(f"90% Prediction Interval: ({lower_bound}, {upper_bound})")
-    print(f"Most recent price of ASIN {asin}: {scaler.inverse_transform(asin_data['price'].iloc[-1].reshape(-1, 1))}")
 
 
 
